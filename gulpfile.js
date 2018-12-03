@@ -28,8 +28,7 @@ gulp.task('scripts', function(){
         'app/libs/jquery/dist/jquery.min.js',
         'app/libs/modernizr/modernizr.min.js',
         'app/libs/flexibility/flexibility.js',
-       //'app/libs/magnific/jquery.magnific-popup.js',
-        //'app/libs/slick/slick.min.js',
+       'app/libs/royalslider/royalslider.js',
     ])
     .pipe(concat('libs.min.js'))
     .pipe(uglify())

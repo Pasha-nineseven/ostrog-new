@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="10px" viewBox="0 0 12 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>svg_open_original</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="png/ostrog_UI_guide" transform="translate(-817.000000, -2735.000000)" fill="#FFFFFF">
+            <g id="Галерея-картинок" transform="translate(465.000000, 2317.000000)">
+                <g id="Group-4" transform="translate(267.000000, 407.000000)">
+                    <g id="svg_open_original" transform="translate(85.000000, 11.000000)">
+                        <path d="M2,0 L6,0 L6,1 L2,1 L2,4 L1,4 L1,0 L2,0 Z M11,8 L11,6 L12,6 L12,8 L12,9 L8,9 L8,8 L11,8 Z" id="Combined-Shape" opacity="0.445708786"></path>
+                        <polygon id="Rectangle-18" transform="translate(9.780692, 2.250094) rotate(-315.000000) translate(-9.780692, -2.250094) " points="9.28069197 -0.249905574 10.280692 -0.249905574 10.280692 4.75009443 9.28069197 4.75009443"></polygon>
+                        <path d="M12,1 L12,4 L11,4 L11,1 L8,1 L8,0 L12,0 L12,1 Z" id="Combined-Shape"></path>
+                        <rect id="Rectangle-14" x="0" y="4" width="8" height="6"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
