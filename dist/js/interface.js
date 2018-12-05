@@ -136,6 +136,7 @@ $(document).ready(function() {
 
     // BTN-RIPPLE
     $(".js-ripple").click(function (e) {
+      e.preventDefault();
       // Remove any old one
       $(".ripple").remove();
 
@@ -238,9 +239,10 @@ $('body').append(
 		#pages li { margin: 0; } \
 	</style> \
 	<ol id="pages"> \
-        <li><a href="index.html">Игры</a></li> \
+        <li><a href="index.html">Index</a></li> \
 		<li><a href="articles.html">Статьи</a></li> \
         <li><a href="article.html">Статья</a></li> \
         <li><a href="about.html">About</a></li> \
+        <li><a href="games.html">Игры</a></li> \
 	</ol> \
 </div>');

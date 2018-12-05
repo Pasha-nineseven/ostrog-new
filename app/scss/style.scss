@@ -1359,12 +1359,157 @@ a.page-cat__link{
 	}
 }
 
-.game__item {
-    background: #fff;
-    margin-bottom: 4px;
-    padding: 8px 16px 16px;
+.game-wrap{
+	display: flex;
+	flex-wrap: wrap;
 }
 
+.game-item {
+    padding-bottom: 8px;
+    width: 33.3333%;
+}
+
+.game-top{
+	background: #fff;
+	    padding: 23px 16px 15px 16px;
+}
+
+.game-top__links{
+	display: flex;
+	align-items: center;
+}
+
+.game-top__item{
+	//margin-right: 25px;
+	&:after{
+		content: "/";
+		display: inline-block;
+		color: #909090;
+		font-size: 18px;
+		margin: 0 8px 0 4px;
+	}
+	&:last-child{
+		margin-right: 0;
+		&:after{
+			display: none;
+		}
+	}
+	a{
+		color: #007FE4;
+		font-size: 24px;
+		font-weight: 500;
+	}
+	h1{
+		margin-bottom: 0;
+		margin-top: -5px;
+	}
+
+}
+
+
+
+.game-item__inner{
+	background: #fff;
+	//padding: 8px 16px 16px;
+	height: 100%;
+}
+
+
+.game-link{
+	color: inherit;
+	display: block;
+	text-decoration: none;
+	&:hover{
+		.game-img__inner{
+			transform: scale(1.1);
+		}
+	}
+}
+
+.game-info{
+	padding: 16px 16px 20px;
+}
+
+.game-img{
+	overflow: hidden;
+	height: 220px;
+	margin-bottom: 1px;
+	position: relative;
+}
+
+.game-img__inner{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	transition: all 0.3s ease-in-out;
+	img{
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+.game-platform{
+    font-size: 13px;
+    margin-bottom: 12px;
+    color: #909090;
+}
+.game-date{
+	font-size: 13px;
+	color: #909090;
+	span{
+		color: #333;
+		    margin-right: 3px;
+	}
+}
+
+.game-title{
+	padding-right: 70px;
+	position: relative;
+	margin-bottom: 15px;
+	.rating{
+	    position: absolute;
+	    right: 0;
+	    top: -5px;
+	    width: 44px;
+	    height: 36px;
+	    line-height: 36px;
+	    font-size: 24px;
+
+	}
+}
+
+.game-title__txt{
+	font-size: 18px;
+	line-height: 1.2;
+	font-weight: 500;
+}
+
+.game-txt{
+    font-size: 16px;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+.more-wrapper{
+	margin:  40px 0;
+	text-align: center;
+}
+
+.more-btn{
+	text-decoration: none;
+	color: #fff;
+	border-radius: 5px;
+	background: #007FE4;
+	padding: 10px 61px;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+}
 
 @import "components/footer";
 
