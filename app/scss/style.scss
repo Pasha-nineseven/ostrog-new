@@ -129,12 +129,18 @@
 	&:last-child{
 		margin-bottom: 0;
 	}
+	&:hover{
+		.aside-article__title{
+			color: #003384;
+		}
+	}
 }
 .aside-article__title{
 	font-size: 15px;
 	font-weight: 500;
 	line-height: 1.2;
 	margin-bottom:2px;
+
 }
 
 .aside-article__date{
@@ -154,14 +160,26 @@
 	
 	padding: 7px 15px;
 	margin-left: -16px;
+	text-decoration: none;
+	color: inherit;
+	transition: background 0.3s ease;
 	&.green-scqeme{
 		background: #DCF6E1;
+		&:hover{
+			background: #aef1bb;
+		}
 	}
 	&.yellow-scqeme{
 		background: #F7F7D1;
+		&:hover{
+			background: #ecec9b;
+		}
 	}
 	&.blue-scqeme{
 		background: #DCECF6;
+		&:hover{
+			background: #aed9f3;
+		}
 	}
 }
 
@@ -194,6 +212,7 @@
 	color: #909090;
 	position: relative;
 	padding-left: 13px;
+	text-decoration: none;
 	&:before{
 		content: "";
 		width: 10px;
@@ -203,6 +222,18 @@
 		left: 0;
 		top: 50%;
 		transform: translateY(-50%);
+	}
+	&:hover{
+		color: #616161;
+		&:before{
+			background: url(../img/svg/comment_icon-h.svg) no-repeat;
+		}
+	}
+}
+
+.article__link{
+	&:hover{
+		color: #003384;
 	}
 }
 
@@ -242,12 +273,12 @@
 .article-in{
 	border-top: 1px solid #C9C9C9;
 	border-bottom: 1px solid #C9C9C9;
-	padding-top: 20px;
+	padding-top: 25px;
 	margin-bottom: 20px;
 }
 
 .socials{
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 	    display: flex;
     flex-wrap: wrap;
 }
@@ -397,6 +428,11 @@
 			margin-top: 1px;
 		}
 	}
+	&:hover{
+		.page-browsing__title{
+			color: #003384;
+		}
+	}
 }
 
 .page-browsing__left{
@@ -419,6 +455,11 @@
 			margin-top: 1px;
 		}
 	}
+	&:hover{
+		.page-browsing__title{
+			color: #003384;
+		}
+	}
 }
 
 .page-browsing__title{
@@ -427,6 +468,7 @@
 	color: #000;
 	font-weight: 500;
 	line-height: 1.2;
+	transition: color 0.3s ease;
 }
 
 .page-browsing__date{
@@ -466,6 +508,7 @@
 
 	background: #FFF9E0;
 	padding-left: 3px;
+	padding-right: 3px;
 }
 
 .highlighted-single{
@@ -1150,7 +1193,7 @@ a.page-cat__link{
   background-size: cover;
   position: absolute;
   left: 0;
-      top: 6px;
+      top: 4px;
   transition: all 0.3s ease-in-out; }
 
 .achievement:before,
@@ -1219,7 +1262,7 @@ a.page-cat__link{
   background-size: cover;
   position: absolute;
   left: 0;
-      top: 6px;
+      top: 7px;
   transition: all 0.3s ease-in-out; }
 
 .page-cat__back{
@@ -1239,6 +1282,9 @@ a.page-cat__link{
 		position: absolute;
 		left: 0;
 		top: 0;
+	}
+	&:hover{
+		color: #003384;
 	}
 }
 
@@ -1351,11 +1397,17 @@ a.page-cat__link{
 		border-top-left-radius: 5px;
 		border-bottom-left-radius: 5px;
 		background: #fff url(../img/svg/p-prev.svg) center no-repeat;
+		&:hover{
+			background: #007FE4 url(../img/svg/p-prev-h.svg) center no-repeat;
+		}
 	}
 	&.paging__link--next{
 		border-top-right-radius: 5px;
 		border-bottom-right-radius: 5px;
 		background: #fff url(../img/svg/p-next.svg) center no-repeat;
+		&:hover{
+			background: #007FE4 url(../img/svg/p-next-h.svg) center no-repeat;
+		}
 	}
 }
 
@@ -1422,6 +1474,9 @@ a.page-cat__link{
 	&:hover{
 		.game-img__inner{
 			transform: scale(1.1);
+		}
+		.game-title{
+			color: #003384;
 		}
 	}
 }
@@ -1509,6 +1564,15 @@ a.page-cat__link{
 	display: inline-block;
 	position: relative;
 	overflow: hidden;
+	transition: background 0.3s ease;
+	&:hover{
+		background: #003384;
+	}
+}
+
+.article__add{
+	margin-bottom: 24px;
+	display: block;
 }
 
 @import "components/footer";

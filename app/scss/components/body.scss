@@ -136,7 +136,7 @@ ol{
 		line-height: 1.6;
 		&:before{
 			counter-increment: myCounter;
-			content: counter(myCounter);
+			content: counter(myCounter)'.';
 			position: absolute;
 			left: -1px;
 			top: 0;
