@@ -230,19 +230,19 @@ function hasScrolled() {
 
 
 // links pages
-$('body').append(
-	'<div style="position: fixed; z-index: 1005; bottom: 0; right: 0; background: #fff; border: solid 1px #828286; width: 200px;"> \
-		<a href="javascript:void(0);" style="float: right;background:#ccc; color:#000; padding: 5px 10px; text-decoration: none; font-size: 16px; z-index: 4;position: relative;" onclick="$(this).parent().hide()">Close X</a> \
-	<style> \
-		#pages { padding: 10px 20px 0 20px; font-size: 18px; margin-bottom:0; } \
-		#pages a { text-decoration: none; } \
-		#pages li { margin: 0; } \
-	</style> \
-	<ol id="pages"> \
-        <li><a href="index.html">Index</a></li> \
-		<li><a href="articles.html">Статьи</a></li> \
-        <li><a href="article.html">Статья</a></li> \
-        <li><a href="about.html">About</a></li> \
-        <li><a href="games.html">Игры</a></li> \
-	</ol> \
-</div>');
+// $('body').append(
+// 	'<div style="position: fixed; z-index: 1005; bottom: 0; right: 0; background: #fff; border: solid 1px #828286; width: 200px;"> \
+// 		<a href="javascript:void(0);" style="float: right;background:#ccc; color:#000; padding: 5px 10px; text-decoration: none; font-size: 16px; z-index: 4;position: relative;" onclick="$(this).parent().hide()">Close X</a> \
+// 	<style> \
+// 		#pages { padding: 10px 20px 0 20px; font-size: 18px; margin-bottom:0; } \
+// 		#pages a { text-decoration: none; } \
+// 		#pages li { margin: 0; } \
+// 	</style> \
+// 	<ol id="pages"> \
+//         <li><a href="index.html">Index</a></li> \
+// 		<li><a href="articles.html">Статьи</a></li> \
+//         <li><a href="article.html">Статья</a></li> \
+//         <li><a href="about.html">About</a></li> \
+//         <li><a href="games.html">Игры</a></li> \
+// 	</ol> \
+// </div>');
