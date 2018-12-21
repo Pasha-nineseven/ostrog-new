@@ -244,5 +244,6 @@ $('body').append(
         <li><a href="article.html">Статья</a></li> \
         <li><a href="about.html">About</a></li> \
         <li><a href="games.html">Игры</a></li> \
+        <li><a href="game.html">Игра</a></li> \
 	</ol> \
 </div>');

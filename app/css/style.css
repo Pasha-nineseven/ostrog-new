@@ -3374,6 +3374,13 @@ h4 {
   font-weight: 500;
   line-height: 1.2; }
 
+h5 {
+  margin: 0;
+  margin-bottom: 12px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.2; }
+
 p {
   margin: 0;
   margin-bottom: 26px; }
@@ -4901,12 +4908,12 @@ img.rsImg {
 .page-cat__top {
   font-size: 14px;
   font-weight: 600;
-  border-bottom: 1px solid #C9C9C9;
-  padding-bottom: 2px;
-  margin-bottom: 4px; }
+  margin-bottom: 2px; }
 
 .page-cat__item {
-  margin-bottom: 8px; }
+  margin-bottom: 18px;
+  border-top: 1px solid #C9C9C9;
+  padding-top: 4px; }
 
 .page-cat__link {
   position: relative;
@@ -4921,12 +4928,15 @@ img.rsImg {
 a.page-cat__link:hover {
   color: #003384; }
 
+a.page-cat__link.active {
+  font-weight: 700; }
+
 .l-map:before {
   content: "";
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: url(../img/svg/map_icon.svg) no-repeat;
+  background: #fff url(../img/svg/map_icon.svg) no-repeat;
   background-size: cover;
   position: absolute;
   left: 0;
@@ -4939,7 +4949,7 @@ a.page-cat__link:hover {
   display: inline-block;
   width: 17px;
   height: 17px;
-  background: url(../img/svg/file_icon.svg) no-repeat;
+  background: #fff url(../img/svg/file_icon.svg) no-repeat;
   background-size: cover;
   position: absolute;
   left: 0;
@@ -4953,11 +4963,11 @@ a.page-cat__link:hover {
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: url(../img/svg/trophy.svg) no-repeat;
+  background: #fff url(../img/svg/trophy.svg) no-repeat;
   background-size: cover;
   position: absolute;
   left: 0;
-  top: 6px;
+  top: 5px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
 
@@ -4967,11 +4977,11 @@ a.page-cat__link:hover {
   display: inline-block;
   width: 17px;
   height: 17px;
-  background: url(../img/svg/map_navigation.svg) no-repeat;
+  background: #fff url(../img/svg/map_navigation.svg) no-repeat;
   background-size: cover;
   position: absolute;
   left: 0;
-  top: 6px;
+  top: 4px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
 
@@ -4980,11 +4990,11 @@ a.page-cat__link:hover {
   display: inline-block;
   width: 17px;
   height: 21px;
-  background: url(../img/svg/way.svg) no-repeat;
+  background: #fff url(../img/svg/way.svg) no-repeat;
   background-size: cover;
   position: absolute;
   left: 0;
-  top: 6px;
+  top: 3px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
 
@@ -4994,7 +5004,7 @@ a.page-cat__link:hover {
   display: inline-block;
   width: 16px;
   height: 17px;
-  background: url(../img/svg/unlock.svg) no-repeat;
+  background: #fff url(../img/svg/unlock.svg) no-repeat;
   background-size: cover;
   position: absolute;
   left: 0;
@@ -5007,7 +5017,7 @@ a.page-cat__link:hover {
   display: inline-block;
   width: 16px;
   height: 12px;
-  background: url(../img/svg/video_icon.svg) no-repeat;
+  background: #fff url(../img/svg/video_icon.svg) no-repeat;
   background-size: cover;
   position: absolute;
   left: 0;
@@ -5028,7 +5038,7 @@ a.page-cat__link:hover {
     display: inline-block;
     width: 17px;
     height: 17px;
-    background: url(../img/svg/back.svg) no-repeat;
+    background: #fff url(../img/svg/back.svg) no-repeat;
     position: absolute;
     left: 0;
     top: 0; }
@@ -5303,6 +5313,119 @@ a.page-cat__link:hover {
 .article__add {
   margin-bottom: 24px;
   display: block; }
+
+.game-page-info {
+  font-size: 15px; }
+  .game-page-info ul li {
+    margin-bottom: 17px;
+    line-height: 1.2;
+    padding-left: 29px; }
+    .game-page-info ul li:last-child {
+      margin-bottom: 0; }
+    .game-page-info ul li:before {
+      top: 8px; }
+
+.game-page-info__items {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+  .game-page-info__items .game-page-info__item {
+    padding-right: 41px;
+    width: 50%; }
+  .game-page-info__items .game-page-info__title {
+    margin-bottom: 7px;
+    padding-bottom: 5px; }
+
+.game-page-info__item {
+  margin-bottom: 25px; }
+
+.game-page-info__title {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 5px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid  #E6EAEC; }
+
+.game-page-info__date {
+  margin-bottom: 11px; }
+
+.country-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -2px;
+  width: 16px;
+  height: 16px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  margin-right: 6px;
+  overflow: hidden; }
+  .country-icon img {
+    max-width: 100%;
+    height: auto;
+    display: block; }
+
+.page-aside__name {
+  font-size: 16px;
+  margin-bottom: 10px; }
+
+.second-level {
+  margin-left: 24px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  margin-bottom: 3px;
+  position: relative; }
+  .second-level:before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 100%;
+    background-color: #E6EAEC;
+    position: absolute;
+    left: 8px;
+    top: 0; }
+  .second-level .page-cat__link:last-child {
+    padding-bottom: 0; }
+
+.third-level {
+  margin-left: 20px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-size: 13px;
+  position: relative; }
+  .third-level:before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 100%;
+    background-color: #E6EAEC;
+    position: absolute;
+    left: 5px;
+    top: 0; }
+  .third-level a {
+    color: #303435 !important;
+    display: inline-block; }
+    .third-level a:hover {
+      color: #003384 !important; }
+  .third-level ol {
+    margin-bottom: 0; }
+    .third-level ol li {
+      margin-bottom: 10px;
+      padding-left: 20px;
+      line-height: 1.1; }
+      .third-level ol li:before {
+        left: -3px;
+        text-align: center;
+        width: 20px;
+        background: #fff;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        top: -1px; }
+      .third-level ol li:last-child {
+        margin-bottom: 0; }
 
 .page-footer {
   background: #2b3033;
