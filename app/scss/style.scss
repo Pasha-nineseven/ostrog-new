@@ -1708,6 +1708,34 @@ a.page-cat__link{
     }
 }
 
+.cookies {
+    position: fixed;
+    width: 100%;
+    padding: 9px 55px 9px 30px;
+    line-height: 30px;
+    background-color: #fff5ba;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    font-size: 16px;
+    a{
+    	color: #017aeb;
+    	text-decoration: none;
+    }
+}
+
+.cookies__close {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background: url(../img/svg/cookies-close.svg) no-repeat;
+    background-size: contain;
+}
+
+
 @import "components/footer";
 
 
