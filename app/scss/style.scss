@@ -1426,10 +1426,14 @@ a.page-cat__link{
 .game-top__links{
 	display: flex;
 	align-items: center;
+	flex-wrap:wrap;
 }
 
 .game-top__item{
 	//margin-right: 25px;
+	display: flex;
+	align-items:center;
+
 	&:after{
 		content: "/";
 		display: inline-block;
