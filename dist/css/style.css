@@ -5541,7 +5541,7 @@ a.similar__link {
         -ms-transform: scale(1.1);
             transform: scale(1.1); }
   a.similar__link:hover .similar__title h5 {
-    color: #003384; }
+    color: #0565BA; }
 
 .similar__img {
   overflow: hidden;
@@ -5586,6 +5586,25 @@ a.similar__link {
     font-size: 15px; }
   .similar__title h5 {
     margin-bottom: 10px; }
+
+.gamepage-block-unit-tag {
+  background-color: #003384;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 13px;
+  color: #fff;
+  line-height: 20px;
+  height: 20px;
+  padding: 0 4px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  font-size: 15px; }
+
+.gamepage-block-unit-tag-wrap {
+  margin-bottom: 20px; }
 
 .page-footer {
   background: #2b3033;

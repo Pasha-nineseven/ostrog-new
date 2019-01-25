@@ -1770,7 +1770,7 @@ a.similar__link{
 			transform: scale(1.1);
 		}
 		.similar__title h5{
-			    color: #003384;
+			    color: #0565BA;
 		}
 	}
 }
@@ -1824,6 +1824,25 @@ a.similar__link{
 	h5{
 		    margin-bottom: 10px;
 	}
+}
+
+.gamepage-block-unit-tag {
+    background-color: #003384;
+    border-radius: 2px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+    color: #fff;
+    line-height: 20px;
+    height: 20px;
+    padding: 0 4px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.gamepage-block-unit-tag-wrap{
+	margin-bottom: 20px;
 }
 
 @import "components/footer";
