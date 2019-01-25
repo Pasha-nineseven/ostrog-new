@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>russia</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="png/ostrog_game_page_05" transform="translate(-464.000000, -5415.000000)" fill-rule="nonzero">
+            <g id="Об-игре-" transform="translate(441.000000, 5035.000000)">
+                <g id="Дата-выхода" transform="translate(0.000000, 332.000000)">
+                    <g id="russia" transform="translate(24.000000, 49.000000)">
+                        <g id="Oval">
+                            <use fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <circle stroke="#AFBCC5" stroke-width="1" cx="8" cy="8" r="8.5"></circle>
+                        </g>
+                        <path d="M15.5024062,10.8047396 C15.824,9.94462414 16,9.01432364 16,8.0431465 C16,7.07196936 15.824,6.14166886 15.5024062,5.2815534 L0.49759375,5.2815534 C0.17603125,6.14166886 0,7.07196936 0,8.0431465 C0,9.01432364 0.17603125,9.94462414 0.49759375,10.8047396 L8,11.4951456 L15.5024062,10.8047396 Z" id="Shape" fill="#0052B4"></path>
+                        <path d="M8,16 C11.454195,16 14.3988797,13.8023079 15.5339806,10.7184466 L0.466019417,10.7184466 C1.60112029,13.8023079 4.54580498,16 8,16 Z" id="Shape" fill="#D80027"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
