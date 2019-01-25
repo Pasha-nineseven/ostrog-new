@@ -1742,6 +1742,90 @@ a.page-cat__link{
 }
 
 
+.similar{
+	margin-bottom: 30px;
+	margin-right: -40px;
+	display: flex;
+	flex-wrap:wrap;
+}
+
+
+.similar__item{
+	padding-right: 40px;
+	width: 33.33%;
+	margin-bottom: 38px;
+	line-height: 1.2;
+	.rating-number {
+	    font-size: 15px;
+	    margin-bottom: 6px;
+	}
+}
+
+a.similar__link{
+	color: inherit!important;
+	display: block;
+	text-decoration: none;
+	&:hover{
+		.similar__inner{
+			transform: scale(1.1);
+		}
+		.similar__title h5{
+			    color: #003384;
+		}
+	}
+}
+
+.similar__img{
+	overflow: hidden;
+	height: 140px;
+	margin-bottom: 21px;
+	position: relative;
+}
+
+.similar__inner{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	transition: all 0.3s ease-in-out;
+	img{
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+.similar__platform{
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+.similar__date{
+	font-size: 13px;
+	span{
+		color: #787878;
+	}
+}
+
+.similar__title{
+	padding-right: 50px;
+	position: relative;
+	.rating{
+		position: absolute;
+		right: 0;
+		top: -5px;
+		width: 33px;
+		height: 33px;
+		line-height: 33px;
+		font-size: 15px;
+	}
+	h5{
+		    margin-bottom: 10px;
+	}
+}
+
 @import "components/footer";
 
 

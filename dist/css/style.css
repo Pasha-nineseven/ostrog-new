@@ -5512,6 +5512,81 @@ a.page-cat__link.active {
   background: url(../img/svg/cookies-close.svg) no-repeat;
   background-size: contain; }
 
+.similar {
+  margin-bottom: 30px;
+  margin-right: -40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+
+.similar__item {
+  padding-right: 40px;
+  width: 33.33%;
+  margin-bottom: 38px;
+  line-height: 1.2; }
+  .similar__item .rating-number {
+    font-size: 15px;
+    margin-bottom: 6px; }
+
+a.similar__link {
+  color: inherit !important;
+  display: block;
+  text-decoration: none; }
+  a.similar__link:hover .similar__inner {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1); }
+  a.similar__link:hover .similar__title h5 {
+    color: #003384; }
+
+.similar__img {
+  overflow: hidden;
+  height: 140px;
+  margin-bottom: 21px;
+  position: relative; }
+
+.similar__inner {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+  .similar__inner img {
+    max-width: 100%;
+    height: auto; }
+
+.similar__platform {
+  font-size: 13px;
+  margin-bottom: 10px; }
+
+.similar__date {
+  font-size: 13px; }
+  .similar__date span {
+    color: #787878; }
+
+.similar__title {
+  padding-right: 50px;
+  position: relative; }
+  .similar__title .rating {
+    position: absolute;
+    right: 0;
+    top: -5px;
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+    font-size: 15px; }
+  .similar__title h5 {
+    margin-bottom: 10px; }
+
 .page-footer {
   background: #2b3033;
   background: -webkit-gradient(linear, left top, right top, from(#2b3033), to(#2a3433));
