@@ -1513,9 +1513,11 @@ a.page-cat__link{
 .game-date{
 	font-size: 13px;
 	color: #909090;
+	display: inline-block;
+    vertical-align: middle;
 	span{
 		color: #333;
-		    margin-right: 3px;
+		margin-right: 3px;
 	}
 }
 
@@ -1645,16 +1647,16 @@ a.page-cat__link{
     padding-top: 1px;
     margin-bottom: 3px;
     position: relative;
-    &:before{
-    	content: "";
-    	display: inline-block;
-    	width: 1px;
-    	height: 100%;
-    	background-color: #E6EAEC;
-    	position: absolute;
-    	left: 8px;
-    	top: 0;
-    }
+    // &:before{
+    // 	content: "";
+    // 	display: inline-block;
+    // 	width: 1px;
+    // 	height: 100%;
+    // 	background-color: #E6EAEC;
+    // 	position: absolute;
+    // 	left: 8px;
+    // 	top: 0;
+    // }
     .page-cat__link{
     	&:last-child{
 			padding-bottom: 0;
