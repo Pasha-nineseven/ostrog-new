@@ -20,6 +20,12 @@
 	}
 }
 
+.page-header--static{
+  &.nav-up {
+    top: 0;
+  }
+}
+
 .page-header__wrap{
 	display: flex;
     justify-content: space-between;
