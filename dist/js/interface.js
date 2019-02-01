@@ -2,10 +2,6 @@ var IS_LOCAL_HTML = /.*\.html$/.test(window.location.href);
 
 $(document).ready(function() {
 	flexibility(document.documentElement);
-	// $("body").on("click", ".test", function(e){
-	// 	e.preventDefault();
-	// })
-
 
     //PAGE-SEARCH
     $('.page-header__input').keyup(function(){
@@ -36,22 +32,6 @@ $(document).ready(function() {
         $('.page-header__search').removeClass('active');
     })
 
-
-
-
-
-	// $("body").on("click", ".page-footer-lang__view", function(e){
-	//     e.preventDefault();
-	//     $('.page-footer-lang__list').fadeToggle(100);
-	// });
-	// $(document).click(function (e){
-	//     var div = $(".page-footer-lang");
-	//     if (!div.is(e.target)
-	//         && div.has(e.target).length === 0) {
-	//       $(".page-footer-lang__list").fadeOut(100);
-	//     }
-	// });
-
 	//LANGUAGE
 	$("body").on("click", ".page-header-lang", function(e){
         if (!$(e.target).hasClass('page-header-lang__item')) {
@@ -66,9 +46,6 @@ $(document).ready(function() {
           $(".page-header-lang__list").fadeOut(100);
         }
     });
-
-
-
 
     if ( $('.material-slider-wrap').length>0 ) {
         $('.royalSlider').each(function() {
@@ -96,9 +73,6 @@ $(document).ready(function() {
                 sliderDrag:true,
                 thumbs: {
                     arrows:false,
-                  //appendSpan: true,
-                  //firstMargin: true,
-                  //paddingBottom: 4
                 }
             });
             var sliderInstance = sliderJQ.data('royalSlider');
@@ -110,7 +84,6 @@ $(document).ready(function() {
                     (sliderInstance.currSlideId+1),
                     sliderInstance.numSlides
                 ].join(' из ')
-                //.join(LANG === 'ru' ? ' из ' : ' of ')
                 slideCountEl.text(str);
             }
             sliderInstance.ev.on('rsAfterSlideChange', updCount);
@@ -124,8 +97,6 @@ $(document).ready(function() {
         $(this).hide();
 
         $(this).prev('.video__poster').hide();
-
-        //$('#video')[0].src += "&autoplay=1";
 
         var videoURL = $('#video').prop('src');
         videoURL += "&autoplay=1";
@@ -323,23 +294,6 @@ function onScroll(event){
         }
     }
 }
-
-
-
-// $(function() {
-//     if ($('#progress').length>0) {
-//         $('#progress').tocProgress({
-//             //storyElem: '.page-info-scroll',
-//             //headlineSelector: 'h9' // чтобы при инициализации не добавлялся пункт из селектора, указываю не существующий
-//         });
-//     }
-// });
-
-// $(window).load(function(){
-
-// });
-
-// functions
 
 
 // links pages
