@@ -3485,7 +3485,7 @@ hr {
     position: relative;
     z-index: 4; }
 
-.page-header--static.nav-up {
+.page-header--static.nav-up, .layout--header-static header.nav-up {
   top: 0; }
 
 .page-header__wrap {

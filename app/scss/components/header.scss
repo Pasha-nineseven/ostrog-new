@@ -7,7 +7,7 @@
 	background: linear-gradient(91deg, rgb(2, 74, 154) 0%, rgb(0, 102, 158) 100%);
 	color: #79a4ca;
 	font-size: 15px;
-	
+
 	position: fixed;
 	width: 100%;
 	left: 0;
@@ -20,7 +20,7 @@
 	}
 }
 
-.page-header--static{
+.page-header--static, .layout--header-static header{
   &.nav-up {
     top: 0;
   }
@@ -216,7 +216,7 @@
         }
         .page-header__submit{
             pointer-events:all;
-            
+
             z-index: 3;
             opacity: 1;
             transition: all 0.2s linear 0.2s;
@@ -237,7 +237,7 @@
         transition: none;
         color: #fff;
         font-size: 16px;
-        z-index: 3;  
+        z-index: 3;
     }
     ::-webkit-input-placeholder {color:#7DADCB;transition:all 0.3s ease;}
     ::-moz-placeholder          {color:#7DADCB;transition:all 0.3s ease;}
@@ -288,7 +288,7 @@
     z-index: 3;
     opacity: 0;
     pointer-events: none;
-    
+
 }
 
 .page-header-middle{
@@ -340,7 +340,7 @@
     .highlighted {
         background-color: #e34437;
         border: 0;
-            padding-right: 3px; 
+            padding-right: 3px;
     }
 }
 
