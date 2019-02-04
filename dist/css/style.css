@@ -4884,6 +4884,8 @@ img.rsImg {
 
 .material-top__buttons {
   padding-top: 22px; }
+  .material-top__buttons .socials {
+    margin-bottom: 0; }
 
 .material-btn {
   font-size: 20px;
