@@ -30,7 +30,7 @@ $(document).ready(function() {
         $('body').removeClass('hidden');
         $('.page-header__input').val("");
         $('.page-header__search').removeClass('active');
-    })
+    });
 
 	//LANGUAGE
 	$("body").on("click", ".page-header-lang", function(e){
@@ -176,7 +176,12 @@ $(document).ready(function() {
 
     if ($(".instruction__list").length>0) {
         onScroll();
-    }
+    };
+
+    $("body").on("click", ".cookies__close", function(e){
+         e.preventDefault();
+        $(this).parents('.cookies').hide();
+    })
 
 });
 

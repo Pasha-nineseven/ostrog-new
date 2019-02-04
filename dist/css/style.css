@@ -5496,6 +5496,28 @@ a.page-cat__link.active {
   background: url(../img/svg/cookies-close.svg) no-repeat;
   background-size: contain; }
 
+.cookies .btn {
+  background: #024a9a;
+  background: -webkit-gradient(linear, left top, right top, from(#024a9a), to(#00669e));
+  background: linear-gradient(90deg, #024a9a 0%, #00669e 100%);
+  display: inline-block;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  color: #fff;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  padding: 5px 25px;
+  vertical-align: middle;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-bottom: 0; }
+
+.cookies .btn:hover {
+  color: #fff;
+  background: #0153aa;
+  background: -webkit-gradient(linear, left top, right top, from(#0153aa), to(#016aad));
+  background: linear-gradient(90deg, #0153aa 0%, #016aad 100%); }
+
 .similar {
   margin-bottom: 30px;
   margin-right: -40px;

@@ -1717,6 +1717,28 @@ a.page-cat__link{
     background-size: contain;
 }
 
+.cookies .btn {
+    background: #024a9a;
+    background: -webkit-linear-gradient(0deg,#024a9a 0%,#00669e 100%);
+    background: -webkit-gradient(linear,left top,right top,from(#024a9a),to(#00669e));
+    background: -webkit-linear-gradient(left,#024a9a 0%,#00669e 100%);
+    background: linear-gradient(90deg,#024a9a 0%,#00669e 100%);
+    display: inline-block;
+    transition: all .3s ease;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 25px;
+    vertical-align: middle;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.cookies .btn:hover {
+    color: #fff;
+    background: #0153aa;
+    background: linear-gradient(90deg,#0153aa 0%,#016aad 100%);
+}
 
 .similar{
 	margin-bottom: 30px;
