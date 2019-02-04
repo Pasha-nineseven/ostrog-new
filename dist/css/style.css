@@ -4951,7 +4951,10 @@ img.rsImg {
 .page-cat__top {
   font-size: 14px;
   font-weight: 600;
-  margin-bottom: 2px; }
+  margin-bottom: 2px;
+  color: #333333;
+  text-decoration: none;
+  display: block; }
 
 .page-cat__item {
   margin-bottom: 18px;
@@ -4967,12 +4970,38 @@ img.rsImg {
   padding: 6px 0 6px 23px;
   color: #303435;
   line-height: 1.1; }
+  .page-cat__link.active {
+    font-weight: 600; }
 
 a.page-cat__link:hover {
   color: #003384; }
 
-a.page-cat__link.active {
-  font-weight: 700; }
+span.page-cat__link.active {
+  font-weight: 600; }
+
+span.page-cat__link.l-file:before {
+  background: #fff url(../img/svg/file_icon_h.svg) no-repeat;
+  background-size: cover; }
+
+span.page-cat__link.l-map:before {
+  background: #fff url(../img/svg/map_icon_h.svg) no-repeat;
+  background-size: cover; }
+
+span.page-cat__link.l-video:before {
+  background: #fff url(../img/svg/video_icon_h.svg) no-repeat;
+  background-size: cover; }
+
+span.page-cat__link.way:before {
+  background: #fff url(../img/svg/way_h.svg) no-repeat;
+  background-size: cover; }
+
+span.page-cat__link.achievement:before {
+  background: #fff url(../img/svg/trophy_h.svg) no-repeat;
+  background-size: cover; }
+
+span.page-cat__link.map-in:before {
+  background: #fff url(../img/svg/map_navigation_h.svg) no-repeat;
+  background-size: cover; }
 
 .l-map:before {
   content: "";
@@ -5087,6 +5116,9 @@ a.page-cat__link.active {
     top: 0; }
   .page-cat__back:hover {
     color: #003384; }
+  .page-cat__back.active {
+    font-weight: 500;
+    color: #333333; }
 
 .transition {
   margin: 48px 0 40px;

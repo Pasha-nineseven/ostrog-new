@@ -1121,6 +1121,9 @@ img.rsImg {
 	font-size: 14px;
 	font-weight: 600;
 	margin-bottom: 2px;
+	color: #333333;
+	text-decoration: none;
+	display: block;
 }
 
 .page-cat__item {
@@ -1138,14 +1141,56 @@ img.rsImg {
     padding: 6px 0 6px 23px;
     color: #303435;
     line-height: 1.1;
+    &.active{
+		font-weight: 600;
+    }
 }
 
 a.page-cat__link{
 	&:hover{
 		color: #003384;
 	}
+}
+
+span.page-cat__link{
 	&.active{
-		font-weight: 700;
+		font-weight: 600;
+	}
+	&.l-file{
+		&:before{
+			background: #fff url(../img/svg/file_icon_h.svg) no-repeat;
+  			background-size: cover;
+		}
+	}
+	&.l-map{
+		&:before{
+			background: #fff url(../img/svg/map_icon_h.svg) no-repeat;
+  			background-size: cover;
+		}
+	}
+	&.l-video{
+		&:before{
+			background: #fff url(../img/svg/video_icon_h.svg) no-repeat;
+  			background-size: cover;
+		}
+	}
+	&.way{
+		&:before{
+			background: #fff url(../img/svg/way_h.svg) no-repeat;
+  			background-size: cover;
+		}
+	}
+	&.achievement{
+		&:before{
+			background: #fff url(../img/svg/trophy_h.svg) no-repeat;
+  			background-size: cover;
+		}
+	}
+	&.map-in{
+		&:before{
+			background: #fff url(../img/svg/map_navigation_h.svg) no-repeat;
+  			background-size: cover;
+		}
 	}
 }
 
@@ -1262,6 +1307,10 @@ a.page-cat__link{
 	}
 	&:hover{
 		color: #003384;
+	}
+	&.active{
+		font-weight: 500;
+		color: #333333;
 	}
 }
 
