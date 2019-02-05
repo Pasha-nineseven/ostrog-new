@@ -4,3 +4,23 @@
     width: 17px;
     height: 21px;
 }
+
+span.page-cat__link.l-map:before {
+    background: #fff url(../img/svg/way_h.svg) no-repeat !important;
+    background-size: cover;
+}
+
+span.page-cat__link.l-trophy:before {
+    background: #fff url(../img/svg/trophy_h.svg) no-repeat !important;
+    background-size: cover !important;
+}
+
+span.page-cat__link.l-unlock:before {
+    background: #fff url(../img/svg/unlock_h.svg) no-repeat !important;
+    background-size: cover !important;
+}
+
+span.page-cat__link.l-way:before {
+    background: #fff url(../img/svg/map_navigation_h.svg) no-repeat !important;
+    background-size: cover !important;
+}
