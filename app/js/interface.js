@@ -4,6 +4,9 @@ $(document).ready(function() {
 	flexibility(document.documentElement);
 
     //PAGE-SEARCH
+    $('.page-header__input').focus(function () {
+        $('.page-header__search').addClass('active');
+    });
     $('.page-header__input').keyup(function(){
       var $this = $(this),
       val = $this.val();
@@ -13,7 +16,6 @@ $(document).ready(function() {
         $('.page-header__search').addClass('active');
       }else {
         $('.page-header__result').fadeOut(20);
-        $('.page-header__search').removeClass('active');
       }
     });
 
