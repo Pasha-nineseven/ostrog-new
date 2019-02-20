@@ -5872,6 +5872,11 @@ a.similar__link {
 .is_stuck .instruction__list.isVisible {
   display: block; }
 
+.socials__item.socials__item--tw {
+  background: #1b95e0; }
+  .socials__item.socials__item--tw:hover {
+    background: #0c7abf; }
+
 .page-footer {
   background: #2b3033;
   background: -webkit-gradient(linear, left top, right top, from(#2b3033), to(#2a3433));

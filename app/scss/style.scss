@@ -2161,6 +2161,16 @@ a.similar__link{
 }
 
 
+
+
+
+.socials__item.socials__item--tw {
+    background: #1b95e0;
+    &:hover{
+    	background: #0c7abf;
+    }
+}
+
 @import "components/footer";
 
 
