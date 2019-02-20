@@ -4437,7 +4437,8 @@ img.rsImg {
   width: calc(100% - 40px);
   margin-left: 20px;
   padding-top: 15px;
-  padding-bottom: 16px; }
+  padding-bottom: 16px;
+  min-height: 46px; }
 
 .rsCaption {
   padding: 0 5px;
