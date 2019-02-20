@@ -4086,12 +4086,21 @@ hr {
       background: #aed9f3; }
 
 .article__img {
-  padding-top: 14px;
-  display: block; }
+  margin-top: 14px;
+  display: block;
+  overflow: hidden; }
+  .article__img:hover img {
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05); }
   .article__img img {
     max-width: 100%;
     height: auto;
-    display: block; }
+    display: block;
+    -webkit-transition: -webkit-transform 0.3s ease;
+    transition: -webkit-transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease; }
 
 .article__author {
   margin-right: 24px;
