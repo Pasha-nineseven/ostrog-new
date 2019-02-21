@@ -4245,15 +4245,11 @@ hr {
   font-size: 13px; }
 
 .page-browsing {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   margin: 21px 0 30px; }
+  .page-browsing:after {
+    content: "";
+    display: table;
+    clear: both; }
 
 .page-browsing__top {
   display: block;
@@ -4265,6 +4261,7 @@ hr {
 .page-browsing__right {
   text-decoration: none;
   max-width: 235px;
+  float: right;
   text-align: right; }
   .page-browsing__right .page-browsing__top {
     padding-right: 45px; }
@@ -4288,6 +4285,7 @@ hr {
 .page-browsing__left {
   text-decoration: none;
   max-width: 235px;
+  float: left;
   text-align: left; }
   .page-browsing__left .page-browsing__top {
     padding-left: 45px; }

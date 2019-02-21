@@ -371,9 +371,14 @@
 
 
 .page-browsing{
-	display: flex;
-	justify-content:space-between;
+	// display: flex;
+	// justify-content:space-between;
 	margin: 21px 0 30px;
+	&:after{
+		content: "";
+		display: table;
+		clear: both;
+	}
 }
 
 .page-browsing__top{
@@ -388,6 +393,7 @@
 .page-browsing__right{
 	text-decoration: none;
 	max-width: 235px;
+	float: right;
 	text-align: right;
 	.page-browsing__top{
 		padding-right: 45px;
@@ -415,6 +421,7 @@
 .page-browsing__left{
 	text-decoration: none;
 	max-width: 235px;
+	float: left;
 	text-align: left;
 	.page-browsing__top{
 		padding-left: 45px;
