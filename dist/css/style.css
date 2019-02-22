@@ -4987,30 +4987,6 @@ a.page-cat__link:hover {
 span.page-cat__link.active {
   font-weight: 600; }
 
-span.page-cat__link.l-file:before {
-  background: #fff url(../img/svg/file_icon_h.svg) no-repeat;
-  background-size: cover; }
-
-span.page-cat__link.l-map:before {
-  background: #fff url(../img/svg/map_icon_h.svg) no-repeat;
-  background-size: cover; }
-
-span.page-cat__link.l-video:before {
-  background: #fff url(../img/svg/video_icon_h.svg) no-repeat;
-  background-size: cover; }
-
-span.page-cat__link.way:before {
-  background: #fff url(../img/svg/way_h.svg) no-repeat;
-  background-size: cover; }
-
-span.page-cat__link.achievement:before {
-  background: #fff url(../img/svg/trophy_h.svg) no-repeat;
-  background-size: cover; }
-
-span.page-cat__link.map-in:before {
-  background: #fff url(../img/svg/map_navigation_h.svg) no-repeat;
-  background-size: cover; }
-
 .l-map:before {
   content: "";
   display: inline-block;
@@ -5636,7 +5612,7 @@ a.similar__link {
     margin-bottom: 10px; }
 
 .gamepage-block-unit-tag {
-  background-color: #007FE4;
+  background-color: #003384;
   -webkit-border-radius: 2px;
           border-radius: 2px;
   text-align: center;
@@ -5912,6 +5888,9 @@ a.similar__link {
   background: #1b95e0; }
   .socials__item.socials__item--tw:hover {
     background: #0c7abf; }
+
+.material-count__tooltip {
+  z-index: 3; }
 
 .page-footer {
   background: #2b3033;

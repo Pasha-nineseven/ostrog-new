@@ -1171,42 +1171,42 @@ span.page-cat__link{
 	&.active{
 		font-weight: 600;
 	}
-	&.l-file{
-		&:before{
-			background: #fff url(../img/svg/file_icon_h.svg) no-repeat;
-  			background-size: cover;
-		}
-	}
-	&.l-map{
-		&:before{
-			background: #fff url(../img/svg/map_icon_h.svg) no-repeat;
-  			background-size: cover;
-		}
-	}
-	&.l-video{
-		&:before{
-			background: #fff url(../img/svg/video_icon_h.svg) no-repeat;
-  			background-size: cover;
-		}
-	}
-	&.way{
-		&:before{
-			background: #fff url(../img/svg/way_h.svg) no-repeat;
-  			background-size: cover;
-		}
-	}
-	&.achievement{
-		&:before{
-			background: #fff url(../img/svg/trophy_h.svg) no-repeat;
-  			background-size: cover;
-		}
-	}
-	&.map-in{
-		&:before{
-			background: #fff url(../img/svg/map_navigation_h.svg) no-repeat;
-  			background-size: cover;
-		}
-	}
+	// &.l-file{
+	// 	&:before{
+	// 		background: #fff url(../img/svg/file_icon_h.svg) no-repeat;
+ //  			background-size: cover;
+	// 	}
+	// }
+	// &.l-map{
+	// 	&:before{
+	// 		background: #fff url(../img/svg/map_icon_h.svg) no-repeat;
+ //  			background-size: cover;
+	// 	}
+	// }
+	// &.l-video{
+	// 	&:before{
+	// 		background: #fff url(../img/svg/video_icon_h.svg) no-repeat;
+ //  			background-size: cover;
+	// 	}
+	// }
+	// &.way{
+	// 	&:before{
+	// 		background: #fff url(../img/svg/way_h.svg) no-repeat;
+ //  			background-size: cover;
+	// 	}
+	// }
+	// &.achievement{
+	// 	&:before{
+	// 		background: #fff url(../img/svg/trophy_h.svg) no-repeat;
+ //  			background-size: cover;
+	// 	}
+	// }
+	// &.map-in{
+	// 	&:before{
+	// 		background: #fff url(../img/svg/map_navigation_h.svg) no-repeat;
+ //  			background-size: cover;
+	// 	}
+	// }
 }
 
 .l-map:before {
@@ -1893,7 +1893,7 @@ a.similar__link{
 }
 
 .gamepage-block-unit-tag {
-    background-color: #007FE4;
+    background-color: #003384;
     border-radius: 2px;
     text-align: center;
     display: inline-block;
@@ -2219,6 +2219,10 @@ a.similar__link{
     &:hover{
     	background: #0c7abf;
     }
+}
+
+.material-count__tooltip {
+    z-index: 3;
 }
 
 @import "components/footer";
