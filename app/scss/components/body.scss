@@ -132,8 +132,8 @@ ol{
 		list-style-type: none;
 		padding-left:30px;
 		position: relative;
-		margin-bottom: 20px;
-		line-height: 1.6;
+		margin-bottom: 8px;
+		line-height: 1.25;
 		&:before{
 			counter-increment: myCounter;
 			content: counter(myCounter)'.';
@@ -152,8 +152,8 @@ ul{
 		list-style-type: none;
 		padding-left: 22px;
 		position: relative;
-		margin-bottom: 20px;
-		    line-height: 1.6;
+		margin-bottom: 8px;
+		    line-height: 1.25;
 		&:before{
 			content: "";
 			position: absolute;

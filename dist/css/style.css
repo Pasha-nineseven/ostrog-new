@@ -3394,8 +3394,8 @@ ol {
     list-style-type: none;
     padding-left: 30px;
     position: relative;
-    margin-bottom: 20px;
-    line-height: 1.6; }
+    margin-bottom: 8px;
+    line-height: 1.25; }
     ol li:before {
       counter-increment: myCounter;
       content: counter(myCounter) ".";
@@ -3412,8 +3412,8 @@ ul {
     list-style-type: none;
     padding-left: 22px;
     position: relative;
-    margin-bottom: 20px;
-    line-height: 1.6; }
+    margin-bottom: 8px;
+    line-height: 1.25; }
     ul li:before {
       content: "";
       position: absolute;
@@ -4451,15 +4451,34 @@ img.rsImg {
   padding: 0 5px;
   font-size: 13px;
   color: #333;
-  line-height: 1.2;
-  text-indent: 51px; }
+  line-height: 1.2; }
 
 .pagingInfo {
-  font-size: 13px;
-  color: #333;
-  top: 559px;
   position: absolute;
-  left: 24px; }
+  left: 3px;
+  top: 417px;
+  color: #babbbc;
+  padding: 5px 12px;
+  font-size: 15px;
+  background: rgba(0, 0, 0, 0.6);
+  left: 50%;
+  margin-left: -121px;
+  width: 68px;
+  white-space: nowrap;
+  z-index: 10; }
+
+.material-slider__link {
+  display: inline-block;
+  padding: 5px 13px 5px 27px;
+  font-size: 15px;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 1px;
+  left: 50%;
+  margin-left: -53px;
+  z-index: 2;
+  color: #fff;
+  text-decoration: none; }
 
 .rsOverflow {
   height: 451px !important; }
@@ -4985,7 +5004,8 @@ a.page-cat__link:hover {
   color: #003384; }
 
 span.page-cat__link.active {
-  font-weight: 600; }
+  font-weight: 600;
+  color: #024a9a; }
 
 .l-map:before {
   content: "";
