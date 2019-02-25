@@ -5910,9 +5910,6 @@ a.similar__link {
   .socials__item.socials__item--tw:hover {
     background: #0c7abf; }
 
-.material-count__tooltip {
-  z-index: 3; }
-
 .js-page-aside__sticky {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
