@@ -3350,21 +3350,21 @@ h1 {
   margin: 0;
   margin-bottom: 20px;
   font-size: 38px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.2; }
 
 h2 {
   margin: 0;
   margin-bottom: 20px;
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.2; }
 
 h3 {
   margin: 0;
   margin-bottom: 16px;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.2; }
 
 h4 {
@@ -5303,7 +5303,8 @@ span.page-cat__link.active {
     font-weight: 500; }
   .game-top__item h1 {
     margin-bottom: 0;
-    margin-top: -5px; }
+    margin-top: -5px;
+    font-weight: 500; }
 
 .game-item__inner {
   background: #fff;
@@ -5351,11 +5352,11 @@ span.page-cat__link.active {
 
 .game-date {
   font-size: 13px;
-  color: #909090;
+  color: #333;
   display: inline-block;
   vertical-align: middle; }
   .game-date span {
-    color: #333;
+    color: #909090;
     margin-right: 3px; }
 
 .game-title {
