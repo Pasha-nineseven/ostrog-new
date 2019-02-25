@@ -2248,6 +2248,20 @@ a.similar__link{
     z-index: 3;
 }
 
+
+.js-page-aside__sticky{
+	transition: all 0.3s ease-in-out;
+}
+.js-page-aside__sticky.is_stuck{
+	top: 0!important;
+}
+
+.nav-down+.wrapper{
+	.js-page-aside__sticky.is_stuck{
+		top: 56px!important;
+	}
+}
+
 @import "components/footer";
 
 

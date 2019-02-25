@@ -157,6 +157,11 @@ $(document).ready(function() {
         $(".instruction").stick_in_parent();
     };
 
+
+     if ($(".js-page-aside__sticky").length>0) {
+        $(".js-page-aside__sticky").stick_in_parent();
+    };
+
     $("body").on("click",".expand-info", function (event) {
         event.preventDefault();
         //if (/.*\.html$/.test(window.location.href)) {

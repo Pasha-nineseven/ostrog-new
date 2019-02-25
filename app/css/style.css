@@ -5912,6 +5912,16 @@ a.similar__link {
 .material-count__tooltip {
   z-index: 3; }
 
+.js-page-aside__sticky {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.js-page-aside__sticky.is_stuck {
+  top: 0 !important; }
+
+.nav-down + .wrapper .js-page-aside__sticky.is_stuck {
+  top: 56px !important; }
+
 .page-footer {
   background: #2b3033;
   background: -webkit-gradient(linear, left top, right top, from(#2b3033), to(#2a3433));
