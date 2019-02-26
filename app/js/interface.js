@@ -186,7 +186,8 @@ $(document).ready(function() {
     };
 
     $("body").on("click", ".cookies__close", function(e){
-         e.preventDefault();
+        e.preventDefault();
+        $('.layout').removeClass('layout--cookie');
         $(this).parents('.cookies').hide();
     });
 
