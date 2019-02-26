@@ -98,7 +98,7 @@ gulp.task('build', ['clean', 'img', 'sass', 'css-libs', 'scripts'], function() {
     var buildCss = gulp.src([
         'app/css/style.css',
         'app/css/libs.min.css',
-        'app/css/override_icons.css'
+        'app/css/override.css'
         ])
     .pipe(gulp.dest('dist/css'))
 

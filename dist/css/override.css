@@ -1,0 +1,130 @@
+.l-map:before {
+    background: url(../img/svg/way.svg) no-repeat !important;
+    background-size: cover !important;
+    width: 17px;
+    height: 21px;
+}
+
+/* span.page-cat__link.l-map:before {
+    background: #fff url(../img/svg/way_h.svg) no-repeat !important;
+    background-size: cover;
+} */
+
+/* span.page-cat__link.l-trophy:before {
+    background: #fff url(../img/svg/trophy_h.svg) no-repeat !important;
+    background-size: cover !important;
+} */
+
+/* span.page-cat__link.l-unlock:before {
+    background: #fff url(../img/svg/unlock_h.svg) no-repeat !important;
+    background-size: cover !important;
+} */
+
+/* span.page-cat__link.l-way:before {
+    background: #fff url(../img/svg/map_navigation_h.svg) no-repeat !important;
+    background-size: cover !important;
+} */
+
+.dnone {
+    display: none;
+}
+
+/**/
+.page-aside .js-anchors__link {
+    text-decoration: none;
+}
+
+/* Выравниваем кнопку показать еще по центру */
+.more-wrapper {
+    min-width: 100% !important;
+}
+
+/*
+ * Чтобы не повадно было кнопку (Показать еще) повторно нажимать
+ * при ajax запросе
+ */
+.more-wrapper .more-btn.disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+/* Картинки без подписей внутри p */
+img {
+    max-width: 100% !important;
+}
+
+table {
+    margin-bottom: 26px;
+}
+
+.content .highlighted-block, .content .highlighted-text {
+    margin-left: -16px;
+    margin-right: -21px;
+}
+
+.image-link {
+    cursor: pointer;
+}
+
+.dnone {
+    display: none !important;
+}
+
+/* cookie */
+.cookies {
+    position: relative;
+    color: #333;
+}
+
+.layout--cookie .nav-up{
+    top: 0;
+}
+
+.layout--cookie .is_stuck {
+    top: 114px !important;
+}
+
+.layout--cookie .page-content {
+    padding-top: 114px;
+}
+/* /cookie */
+
+/* author */
+.article__author {
+    color: #333;
+}
+/* /author */
+
+.material-top__buttons .socials{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.instruction {
+    margin-left: -21px;
+    margin-right: -21px;
+}
+
+ul li:before {
+    top: 10px;
+}
+
+.material-slider__link:before {
+    content: "";
+    width: 12px;
+    height: 10px;
+    background: url(../img/svg/svg_open_original.svg) no-repeat;
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    margin-top: -6px;
+}
+
+
+.material-slider-wrap--en .pagingInfo{
+    margin-left: -82px;
+}
+
+.material-slider-wrap--en .material-slider__link {
+    margin-left: -14px;
+}
