@@ -8,3 +8,7 @@
     display: inline;
     background: #fff794;
 }
+
+.reddit-embed iframe {
+    max-width: 100%;
+}
