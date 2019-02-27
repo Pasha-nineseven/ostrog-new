@@ -1,6 +1,7 @@
 var IS_LOCAL_HTML = /.*\.html$/.test(window.location.href);
 
 $(document).ready(function() {
+    var LANG = $('html').attr('lang') ? $('html').attr('lang') : 'ru';
 	flexibility(document.documentElement);
 
     //PAGE-SEARCH
@@ -85,7 +86,7 @@ $(document).ready(function() {
                 var str = [
                     (sliderInstance.currSlideId+1),
                     sliderInstance.numSlides
-                ].join(' из ')
+                ].join(LANG === 'ru' ? ' из ' : ' of ')
                 slideCountEl.text(str);
             }
             sliderInstance.ev.on('rsAfterSlideChange', updCount);
