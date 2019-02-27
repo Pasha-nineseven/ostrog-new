@@ -160,7 +160,9 @@ $(document).ready(function() {
 
 
      if ($(".js-page-aside__sticky").length>0) {
-        $(".js-page-aside__sticky").stick_in_parent();
+        $(".js-page-aside__sticky").stick_in_parent({
+            parent: '.wrapper',
+        });
     };
 
     $("body").on("click",".expand-info", function (event) {
