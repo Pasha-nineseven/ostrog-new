@@ -2,6 +2,10 @@ var IS_LOCAL_HTML = /.*\.html$/.test(window.location.href);
 
 $(document).ready(function() {
     var LANG = $('html').attr('lang') ? $('html').attr('lang') : 'ru';
+
+    // для 2/3/4 картинок с общей подписью
+    $('.media__title').closest('.images-multiple').addClass('images-multiple--one-title');
+
 	flexibility(document.documentElement);
 
     //PAGE-SEARCH
