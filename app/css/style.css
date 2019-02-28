@@ -4179,7 +4179,7 @@ hr {
 
 .socials__item {
   margin-right: 10px;
-  padding: 4px 9px;
+  padding: 3px 5px 2px 5px;
   color: #fff;
   -webkit-border-radius: 3px;
           border-radius: 3px;
@@ -4241,6 +4241,16 @@ hr {
     .socials__item.socials__item--tw i {
       width: 13px;
       height: 12px; }
+  .socials__item.socials__item--twi {
+    background: #1b95e0; }
+    .socials__item.socials__item--twi:hover {
+      background: #0c7abf; }
+    .socials__item.socials__item--twi i {
+      display: inline-block;
+      vertical-align: middle;
+      width: 16px;
+      height: 14px;
+      margin-top: -2px; }
 
 .image-caption {
   padding: 15px 0;
@@ -5470,7 +5480,7 @@ span.page-cat__link.active {
   margin-bottom: 25px; }
 
 .game-page-info__title {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 18px;
   margin-bottom: 5px;
   padding-bottom: 7px;
@@ -5942,11 +5952,6 @@ a.similar__link {
 
 .is_stuck .instruction__list.isVisible {
   display: block; }
-
-.socials__item.socials__item--tw {
-  background: #1b95e0; }
-  .socials__item.socials__item--tw:hover {
-    background: #0c7abf; }
 
 .js-page-aside__sticky {
   -webkit-transition: all 0.3s ease-in-out;

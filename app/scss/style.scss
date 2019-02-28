@@ -292,7 +292,7 @@
     // display: inline-block;
     // vertical-align: top;
     margin-right: 10px;
-    padding: 4px 9px;
+        padding: 3px 5px 2px 5px;
     color: #fff;
     border-radius: 3px;
     text-decoration: none;
@@ -363,7 +363,19 @@
     		height: 12px;
 	    }
 	}
-
+	&.socials__item--twi {
+	    background: #1b95e0;
+	    &:hover{
+	    	background: #0c7abf;
+	    }
+	    i{
+			display: inline-block;
+			vertical-align: middle;
+			width: 16px;
+			height: 14px;
+			margin-top: -2px;
+	    }
+	}
 }
 
 .image-caption{
@@ -1683,7 +1695,7 @@ span.page-cat__link{
 }
 
 .game-page-info__title{
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 18px;
 	margin-bottom: 5px;
 	padding-bottom: 7px;
@@ -2242,14 +2254,6 @@ a.similar__link{
 
 
 
-
-
-.socials__item.socials__item--tw {
-    background: #1b95e0;
-    &:hover{
-    	background: #0c7abf;
-    }
-}
 
 .js-page-aside__sticky{
 	transition: all 0.3s ease-in-out;
