@@ -618,10 +618,10 @@ img.rsImg {
 }
 
 .rsDefaultInv .rsThumbsHor{
-    height: 95px;
-    padding: 3px 0 0 0;
-    width: calc(100% - 40px);
-    margin-left: 20px;
+    height: 100px;
+    padding: 5px 0 0 0;
+    width:100%;
+
 }
 
 
@@ -634,16 +634,13 @@ img.rsImg {
     font-size: 15px;
     padding: 0;
     clear: both;
-    color: #333333;
-    width: calc(100% - 40px);
-    margin-left: 20px;
-    padding-top: 15px;
-        padding-bottom: 16px;
-            min-height: 46px;
+    width: 100%;
+    
 }
 
 .rsCaption {
-    padding: 0 5px;
+   padding: 12px 20px 15px 20px;
+    min-height: 46px;
     font-size: 13px;
     color: #333;
     line-height: 1.2;
