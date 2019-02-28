@@ -1754,19 +1754,20 @@ span.page-cat__link{
 
 .third-level {
     margin-left: 20px;
-    padding-bottom: 5px;
+    padding-bottom: 13px;
     padding-top: 5px;
     font-size: 13px;
     position: relative;
+    border-bottom: 1px dashed #e6eaec;
     &:before{
-    	content: "";
-    	display: inline-block;
-    	width: 1px;
-    	height: 100%;
-    	background-color: #E6EAEC;
-    	position: absolute;
-    	left: 5px;
-    	top: 0;
+		content: "";
+		display: inline-block;
+		width: 1px;
+		height: calc(100% - 28px);
+		background-color: #e6eaec;
+		position: absolute;
+		left: 5px;
+		top: 9px;
     }
     a{
     	color: #303435!important;

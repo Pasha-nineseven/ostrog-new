@@ -5519,19 +5519,21 @@ span.page-cat__link.active {
 
 .third-level {
   margin-left: 20px;
-  padding-bottom: 5px;
+  padding-bottom: 13px;
   padding-top: 5px;
   font-size: 13px;
-  position: relative; }
+  position: relative;
+  border-bottom: 1px dashed #e6eaec; }
   .third-level:before {
     content: "";
     display: inline-block;
     width: 1px;
-    height: 100%;
-    background-color: #E6EAEC;
+    height: -webkit-calc(100% - 28px);
+    height: calc(100% - 28px);
+    background-color: #e6eaec;
     position: absolute;
     left: 5px;
-    top: 0; }
+    top: 9px; }
   .third-level a {
     color: #303435 !important;
     display: inline-block; }
