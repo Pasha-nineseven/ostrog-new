@@ -3479,7 +3479,7 @@ hr {
   width: 100%;
   left: 0;
   top: 0;
-  z-index: 5;
+  z-index: 14;
   -webkit-transition: top 0.3s ease-in-out;
   transition: top 0.3s ease-in-out; }
   .page-header > .container-fluid {
@@ -5978,6 +5978,9 @@ a.similar__link {
 
 .layout--cookie .page-content {
   padding-top: 114px; }
+
+.layout--cookie .nav-down + .wrapper .js-page-aside__sticky.is_stuck {
+  top: 114 !important; }
 
 /* /cookie */
 /* author */

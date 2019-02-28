@@ -2286,6 +2286,12 @@ a.similar__link{
 .layout--cookie .page-content {
     padding-top: 114px;
 }
+
+.layout--cookie .nav-down+.wrapper .js-page-aside__sticky.is_stuck {
+    top: 114 !important;
+}
+
+
 /* /cookie */
 
 /* author */
