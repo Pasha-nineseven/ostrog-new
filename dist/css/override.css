@@ -12,3 +12,7 @@
 .reddit-embed iframe {
     max-width: 100%;
 }
+
+.rsCaption:empty {
+    display: none;
+}
