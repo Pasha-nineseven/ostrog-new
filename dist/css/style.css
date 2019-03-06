@@ -5458,6 +5458,8 @@ span.page-cat__link.active {
 
 .game-page-info {
   font-size: 15px; }
+  .game-page-info h2 {
+    margin-bottom: 8px; }
   .game-page-info ul li {
     margin-bottom: 17px;
     line-height: 1.2;
