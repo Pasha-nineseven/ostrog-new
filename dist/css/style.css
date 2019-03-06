@@ -6039,6 +6039,9 @@ p img {
   padding-bottom: 25px;
   font-size: 14px; }
 
+p + h2 {
+  margin-bottom: 12px; }
+
 .page-footer {
   background: #2b3033;
   background: -webkit-gradient(linear, left top, right top, from(#2b3033), to(#2a3433));

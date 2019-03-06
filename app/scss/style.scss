@@ -2381,6 +2381,10 @@ p{
     font-size: 14px;
 }
 
+p+h2{
+	margin-bottom: 12px;
+}
+
 @import "components/footer";
 
 
