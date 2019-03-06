@@ -4373,6 +4373,12 @@ hr {
   margin-left: 0;
   margin-right: 0; }
 
+.layout--material .page-aside {
+  padding-right: 4px;
+  width: 254px;
+  max-width: 254px;
+  min-width: 254px; }
+
 .highlighted-single {
   border: 1px solid #F6E54A;
   -webkit-box-shadow: 1px 1px 0px 0px rgba(246, 229, 74, 0.75);
