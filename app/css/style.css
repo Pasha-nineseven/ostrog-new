@@ -3298,7 +3298,7 @@ a[href]:not([class]) {
 body {
   margin: 0;
   height: 100%;
-  background: #f0f0f0 url(../img/content/pattern.png) repeat;
+  background: #e6eaec url(../img/content/pattern.png) repeat;
   -webkit-font-smoothing: antialiased;
   font-size: 18px;
   font-family: "Rubik", Arial, sans-serif;
@@ -6030,6 +6030,10 @@ p img {
   background: #fff9e0;
   padding-left: 3px;
   padding-right: 3px; }
+
+.text-author {
+  padding-bottom: 25px;
+  font-size: 14px; }
 
 .page-footer {
   background: #2b3033;
