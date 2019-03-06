@@ -55,6 +55,7 @@
 .content{
 	//background: #fff;
 	flex:1;
+	overflow: hidden;
 	//max-width: calc(100% - 323px);
 	// padding-top: 24px;
 	// padding-left: 16px;
@@ -2347,7 +2348,7 @@ a.similar__link{
 }
 
 .material-slider-wrap--en .material-slider__link {
-    margin-left: -14px;
+    margin-left: 2px;
 }
 
 

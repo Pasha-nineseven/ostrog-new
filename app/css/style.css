@@ -3982,7 +3982,8 @@ hr {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
       -ms-flex: 1;
-          flex: 1; }
+          flex: 1;
+  overflow: hidden; }
 
 .btn {
   background: #024a9a;
@@ -6017,7 +6018,7 @@ a.similar__link {
   margin-left: -82px; }
 
 .material-slider-wrap--en .material-slider__link {
-  margin-left: -14px; }
+  margin-left: 2px; }
 
 .image-link {
   cursor: pointer; }
