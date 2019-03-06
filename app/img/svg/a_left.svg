@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="34px" height="14px" viewBox="0 0 34 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: sketchtool 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
-    <title>8D24ECE7-EEC7-4D1B-8712-806B97B5DAB9</title>
-    <desc>Created with sketchtool.</desc>
+<svg width="26px" height="12px" viewBox="0 0 26 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>svg/game_page/1400_arrow_left</title>
+    <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="1440" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="png_2.0/ostrog_2.0_ficher_list_01" transform="translate(-371.000000, -3241.000000)" fill="#007FE4" fill-rule="nonzero">
-            <g id="Кнопки-пагинации" transform="translate(190.000000, 3224.000000)">
-                <g id="Две-кнопки" transform="translate(111.000000, 0.000000)">
-                    <g id="Вперед-Copy">
-                        <g id="svg_2.0/ficher_list/arrow_back_icon" transform="translate(87.000000, 24.000000) scale(-1, 1) translate(-87.000000, -24.000000) translate(70.000000, 17.000000)">
-                            <rect id="Rectangle-5" x="0" y="7" width="32" height="1"></rect>
-                            <path d="M26.3056349,13.0757359 L31.9169048,7.46446609 L26.3056349,1.85319626 L27.229899,0.928932188 L33.7654329,7.46446609 L27.229899,14 L26.3056349,13.0757359 Z" id="Combined-Shape"></path>
-                        </g>
-                    </g>
-                </g>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="png/ostrog_game_page_06" transform="translate(-465.000000, -6257.000000)" fill="#017AEB">
+            <g id="Просто-текст" transform="translate(465.000000, 6253.000000)">
+                <path d="M22.603424,11 L1,11 C0.44771525,11 6.76353751e-17,10.5522847 0,10 C-6.76353751e-17,9.44771525 0.44771525,9 1,9 L22.586,9 L19.280712,5.69471202 C18.9017398,5.30233313 18.9071596,4.67862724 19.2928934,4.29289345 C19.6786272,3.90715965 20.3023331,3.90173981 20.694712,4.28071202 L25.715712,9.30171202 C26.106094,9.69221187 26.106094,10.3252122 25.715712,10.715712 L20.694712,15.736712 C20.3023331,16.1156842 19.6786272,16.1102644 19.2928934,15.7245306 C18.9071596,15.3387968 18.9017398,14.7150909 19.280712,14.322712 L22.603424,11 Z" id="svg/game_page/1400_arrow_left" transform="translate(13.004249, 10.008712) scale(-1, 1) translate(-13.004249, -10.008712) "></path>
             </g>
         </g>
     </g>
