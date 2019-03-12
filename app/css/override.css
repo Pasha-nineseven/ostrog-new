@@ -1,0 +1,9 @@
+.highlighted-t {
+    display: inline;
+}
+.highlighted__inner {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: inline;
+    background: #fff794;
+}
