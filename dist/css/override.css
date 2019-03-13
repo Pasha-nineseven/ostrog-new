@@ -7,3 +7,7 @@
     display: inline;
     background: #fff794;
 }
+
+.page-cat__back.active{
+    color: #024a9a;
+}
