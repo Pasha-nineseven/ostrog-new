@@ -30,3 +30,7 @@ hr+.text-author{
 .material-slider-wrap--en .pagingInfo {
     margin-left: -66px;
 }
+
+.article-in {
+    border-bottom: none;
+}
