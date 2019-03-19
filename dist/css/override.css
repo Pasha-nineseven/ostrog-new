@@ -18,3 +18,15 @@
 hr+.text-author{
     padding-bottom: 0;
 }
+
+.pagingInfo {
+    top: 381px;
+}
+
+.rsOverflow {
+    height: 415px !important;
+}
+
+.material-slider-wrap--en .pagingInfo {
+    margin-left: -66px;
+}
