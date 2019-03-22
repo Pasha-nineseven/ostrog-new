@@ -18,6 +18,9 @@
 hr+.text-author{
     padding-bottom: 0;
 }
+.text-author {
+    margin-bottom: 25px;
+}
 
 .pagingInfo {
     top: 381px;
