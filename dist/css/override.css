@@ -37,3 +37,6 @@ hr+.text-author{
 .article-in {
     border-bottom: none;
 }
+p .btn {
+    margin-bottom: 0;
+}
