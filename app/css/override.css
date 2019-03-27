@@ -45,3 +45,7 @@ p .btn {
     padding-right: 0;
     padding-left: 0;
 }
+
+.article-in__img img {
+    margin: 0 auto;
+}
