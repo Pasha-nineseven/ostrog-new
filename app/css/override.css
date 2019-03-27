@@ -40,3 +40,8 @@ hr+.text-author{
 p .btn {
     margin-bottom: 0;
 }
+
+.result .highlighted {
+    padding-right: 0;
+    padding-left: 0;
+}
