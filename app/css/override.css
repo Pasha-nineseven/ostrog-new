@@ -49,3 +49,7 @@ p .btn {
 .article-in__img img {
     margin: 0 auto;
 }
+
+.content .highlighted-text {
+    margin-left: 0;
+}
