@@ -53,3 +53,7 @@ p .btn {
 .content .highlighted-text {
     margin-left: 0;
 }
+
+.reddit-embed {
+    margin-bottom: 26px;
+}
