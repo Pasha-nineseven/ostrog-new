@@ -57,3 +57,11 @@ p .btn {
 .reddit-embed {
     margin-bottom: 26px;
 }
+
+.layout--cookie .nav-down + .wrapper .is_stuck {
+    margin-top: 0;
+}
+
+.layout--cookie .is_stuck {
+    margin-top: 114px;
+}
