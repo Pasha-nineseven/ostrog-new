@@ -68,3 +68,6 @@ p .btn {
 .instruction {
     transition: none!important;
 }
+.page-footer__menu {
+    max-width: inherit;
+}
