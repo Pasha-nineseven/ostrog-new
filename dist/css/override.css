@@ -71,3 +71,8 @@ p .btn {
 .page-footer__menu {
     max-width: inherit;
 }
+
+twitter-widget {
+    margin-left: auto;
+    margin-right: auto;
+}
