@@ -5866,6 +5866,10 @@ a.similar__link {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
   .instruction.is_stuck {
+    margin-top: 56px;
+    position: fixed!important;
+    top: 0!important;
+    bottom: auto!important;
     padding: 14px 41px 14px 8px; }
 
 .instruction__item.active {

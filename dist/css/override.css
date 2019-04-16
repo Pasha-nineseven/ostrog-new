@@ -65,3 +65,6 @@ p .btn {
 .layout--cookie .is_stuck {
     margin-top: 114px;
 }
+.instruction {
+    transition: none!important;
+}
