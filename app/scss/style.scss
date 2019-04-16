@@ -93,6 +93,7 @@
 	background: #fff;
 	margin-bottom: 4px;
 	padding: 15px 15px 23px 35px;
+	box-shadow: 0px 4px 27px -13px rgba(0, 0, 0, 0.55);
 	&:last-child{
 		margin-bottom: 0;
 	}
@@ -2254,11 +2255,11 @@ a.similar__link{
 
 .is_stuck {
     margin-bottom: 0;
-    box-shadow: 0px 4px 27px -13px rgba(0, 0, 0, 0.55);
-    bottom: auto!important;
+    
+    // bottom: auto!important;
     z-index: 13;
-    top: 56px!important;
-    position: fixed!important;
+    // top: 56px!important;
+    // position: fixed!important;
     border-bottom: 0;
 }
 
@@ -2282,15 +2283,21 @@ a.similar__link{
 .js-page-aside__sticky{
 	transition: all 0.3s ease-in-out;
 }
-.js-page-aside__sticky.is_stuck{
-	top: 0!important;
+// .js-page-aside__sticky.is_stuck{
+// 	top: 0!important;
+// }
+
+// .nav-down+.wrapper{
+// 	.js-page-aside__sticky.is_stuck{
+// 		top: 56px!important;
+// 	}
+// }
+
+
+.nav-down+.wrapper .is_stuck {
+    margin-top: 56px;
 }
 
-.nav-down+.wrapper{
-	.js-page-aside__sticky.is_stuck{
-		top: 56px!important;
-	}
-}
 
 /* cookie */
 .cookies {

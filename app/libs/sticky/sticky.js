@@ -162,7 +162,7 @@
                 offset = Math.min(offset_top, offset);
                 if (fixed) {
                   elm.css({
-                    top: offset + "px"
+                    top: 0,
                   });
                 }
               }
@@ -173,7 +173,7 @@
             fixed = true;
             css = {
               position: "fixed",
-              top: offset
+              top: 0,
             };
             css.width = elm.css("box-sizing") === "border-box" ? elm.outerWidth() + "px" : elm.width() + "px";
             elm.css(css).addClass(sticky_class);
