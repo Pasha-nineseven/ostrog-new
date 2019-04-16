@@ -3287,7 +3287,7 @@ textarea, input {
   font-size: inherit;
   line-height: inherit; }
 
-a[href]:not([class]) {
+a[href]:not([class]), a.embedly-card {
   color: #1581E1;
   -webkit-transition: color 0.2s linear;
   transition: color 0.2s linear;
