@@ -76,3 +76,14 @@ twitter-widget {
     margin-left: auto;
     margin-right: auto;
 }
+ul.dots li:before, div.dots ul li:before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 9px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #000;
+    width: 4px;
+    height: 4px;
+}
