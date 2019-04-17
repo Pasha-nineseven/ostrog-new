@@ -87,3 +87,7 @@ ul.dots li:before, div.dots ul li:before {
     width: 4px;
     height: 4px;
 }
+
+.article-in__img .image-caption {
+    word-break: break-word;
+}
