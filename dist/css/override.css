@@ -91,3 +91,11 @@ ul.dots li:before, div.dots ul li:before {
 .article-in__img .image-caption {
     word-break: break-word;
 }
+
+.top-logo {
+    background: url(../img/svg/top_logo_new.svg) center no-repeat;
+}
+.bottom-logo {
+    background: url(../img/svg/bottom_logo_new.svg) center no-repeat;
+    height: 30px;
+}
