@@ -5869,13 +5869,30 @@ a.similar__link {
   position: relative;
   padding: 8px 41px 8px 8px;
   -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+  max-height: -webkit-calc(100vh - 56px);
+  max-height: calc(100vh - 56px);
+  overflow-y: auto; }
   .instruction.is_stuck {
     margin-top: 56px;
     position: fixed !important;
     top: 0 !important;
     bottom: auto !important;
     padding: 14px 41px 14px 8px; }
+
+.instruction::-webkit-scrollbar {
+  width: 8px;
+  height: 8px; }
+
+.instruction::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 5px;
+  border-radius: 5px; }
+
+.instruction::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: #024a9a; }
 
 .instruction__item.active {
   font-weight: 500;
