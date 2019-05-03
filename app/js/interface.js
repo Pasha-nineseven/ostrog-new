@@ -211,6 +211,14 @@ $(document).ready(function() {
       .next(".page-cat__item")
       .slideToggle();
   });
+
+  if ($('.article-in__wrapper').length>0) {
+    $('.article-in__wrapper').each(function(i,elem) {
+        var articleWidth = $(this).find('img').innerWidth();
+        //console.log(articleWidth);
+        $(this).find('.image-caption').css('max-width', articleWidth);
+    });
+  }
 });
 
 $(function() {
@@ -336,7 +344,7 @@ function onScroll(event) {
 }
 
 function adjustTocMarginTop() {
-  console.log("adjust");
+  //console.log("adjust");
   var $cookies = $(".cookies");
   if ($cookies.length) {
     var height = 56 + $cookies.innerHeight();

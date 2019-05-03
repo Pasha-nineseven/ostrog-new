@@ -4148,18 +4148,25 @@ hr {
   color: #003384; }
 
 .article-in__img {
-  margin: 0 -16px 26px; }
+  margin: 0 -16px 26px;
+  text-align: center; }
   .article-in__img img {
     max-width: 100%;
     height: auto;
-    display: block; }
+    display: block;
+    margin: 0 auto; }
   .article-in__img .image-caption {
     margin-left: 16px;
     margin-right: 16px;
     line-height: 1.3;
-    margin-bottom: 27px; }
+    margin-bottom: 27px;
+    text-align: left; }
   .article-in__img .video__item {
     margin-bottom: 0; }
+
+.article-in__wrapper {
+  display: inline-block;
+  margin: 0 auto; }
 
 .article {
   font-size: 16px; }
