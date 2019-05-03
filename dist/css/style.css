@@ -5259,14 +5259,19 @@ span.page-cat__link.active {
 
 .paging {
   margin: 40px 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  text-align: center; }
+
+.paging__wrap {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  -webkit-box-shadow: 0px 4px 27px -13px rgba(0, 0, 0, 0.55);
+          box-shadow: 0px 4px 27px -13px rgba(0, 0, 0, 0.55); }
 
 .paging__link {
   padding: 11px 26px;
@@ -5285,7 +5290,7 @@ span.page-cat__link.active {
   text-decoration: none;
   color: #007FE4;
   border: 1px solid #C9C9C9;
-  background: #dadada;
+  background: #fff;
   font-size: 16px;
   margin-right: -1px;
   -webkit-transition: background 0.3s ease;
@@ -5293,24 +5298,24 @@ span.page-cat__link.active {
   .paging__link:last-child {
     margin-right: 0; }
   .paging__link.active, .paging__link:hover {
-    background: #fff;
-    color: #333; }
+    background: #007fe4;
+    color: #fff; }
   .paging__link.paging__link--prev {
     -webkit-border-top-left-radius: 5px;
             border-top-left-radius: 5px;
     -webkit-border-bottom-left-radius: 5px;
             border-bottom-left-radius: 5px;
-    background: #dadada url(../img/svg/p-prev.svg) center no-repeat; }
+    background: #fff url(../img/svg/p-prev.svg) center no-repeat; }
     .paging__link.paging__link--prev:hover {
-      background: #fff url(../img/svg/p-prev.svg) center no-repeat; }
+      background: #007fe4 url(../img/svg/p-prev-h.svg) center no-repeat; }
   .paging__link.paging__link--next {
     -webkit-border-top-right-radius: 5px;
             border-top-right-radius: 5px;
     -webkit-border-bottom-right-radius: 5px;
             border-bottom-right-radius: 5px;
-    background: #dadada url(../img/svg/p-next.svg) center no-repeat; }
+    background: #fff url(../img/svg/p-next.svg) center no-repeat; }
     .paging__link.paging__link--next:hover {
-      background: #fff url(../img/svg/p-next.svg) center no-repeat; }
+      background: #007fe4 url(../img/svg/p-next-h.svg) center no-repeat; }
 
 .game-wrap {
   display: -webkit-box;

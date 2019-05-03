@@ -1476,8 +1476,12 @@ span.page-cat__link{
 
 .paging{
 	margin: 40px 0 ;
-	display: flex;
+	text-align: center;
+}
+.paging__wrap{
+	display: inline-flex;
 	justify-content:center;
+	box-shadow: 0px 4px 27px -13px rgba(0,0,0,.55);
 }
 
 .paging__link{
@@ -1488,7 +1492,7 @@ span.page-cat__link{
 	text-decoration: none;
 	color: #007FE4;
 	border: 1px solid #C9C9C9;
-	background: #dadada;
+	background: #fff;
 	font-size: 16px;
 	margin-right: -1px;
 	transition: background 0.3s ease;
@@ -1497,26 +1501,27 @@ span.page-cat__link{
 	}
 	&.active,
 	&:hover{
-		background: #fff;
-		color: #333;
+		background: #007fe4;
+		color: #fff;
 	}
 	&.paging__link--prev{
 		border-top-left-radius: 5px;
 		border-bottom-left-radius: 5px;
-		background: #dadada url(../img/svg/p-prev.svg) center no-repeat;
+		background: #fff url(../img/svg/p-prev.svg) center no-repeat;
 		&:hover{
-			background: #fff url(../img/svg/p-prev.svg) center no-repeat;
+			background: #007fe4 url(../img/svg/p-prev-h.svg) center no-repeat;
 		}
 	}
 	&.paging__link--next{
 		border-top-right-radius: 5px;
 		border-bottom-right-radius: 5px;
-		background: #dadada url(../img/svg/p-next.svg) center no-repeat;
+		background: #fff url(../img/svg/p-next.svg) center no-repeat;
 		&:hover{
-			background: #fff url(../img/svg/p-next.svg) center no-repeat;
+			background: #007fe4 url(../img/svg/p-next-h.svg) center no-repeat;
 		}
 	}
 }
+
 
 .game-wrap{
 	display: flex;
