@@ -105,3 +105,8 @@ ul.dots li:before, div.dots ul li:before {
     max-height: -webkit-calc(100vh - 114px);
     max-height: calc(100vh - 114px);
 }
+
+.paging .paging__link.disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+}
