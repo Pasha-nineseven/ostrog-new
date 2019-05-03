@@ -1486,9 +1486,9 @@ span.page-cat__link{
 	justify-content:center;
 	align-items:center;
 	text-decoration: none;
-	color: #333333;
+	color: #007FE4;
 	border: 1px solid #C9C9C9;
-	background: #F0F0F0;
+	background: #dadada;
 	font-size: 16px;
 	margin-right: -1px;
 	transition: background 0.3s ease;
@@ -1498,11 +1498,12 @@ span.page-cat__link{
 	&.active,
 	&:hover{
 		background: #fff;
+		color: #333;
 	}
 	&.paging__link--prev{
 		border-top-left-radius: 5px;
 		border-bottom-left-radius: 5px;
-		background: #f0f0f0 url(../img/svg/p-prev.svg) center no-repeat;
+		background: #dadada url(../img/svg/p-prev.svg) center no-repeat;
 		&:hover{
 			background: #fff url(../img/svg/p-prev.svg) center no-repeat;
 		}
@@ -1510,7 +1511,7 @@ span.page-cat__link{
 	&.paging__link--next{
 		border-top-right-radius: 5px;
 		border-bottom-right-radius: 5px;
-		background: #f0f0f0 url(../img/svg/p-next.svg) center no-repeat;
+		background: #dadada url(../img/svg/p-next.svg) center no-repeat;
 		&:hover{
 			background: #fff url(../img/svg/p-next.svg) center no-repeat;
 		}

@@ -5283,9 +5283,9 @@ span.page-cat__link.active {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  color: #333333;
+  color: #007FE4;
   border: 1px solid #C9C9C9;
-  background: #F0F0F0;
+  background: #dadada;
   font-size: 16px;
   margin-right: -1px;
   -webkit-transition: background 0.3s ease;
@@ -5293,13 +5293,14 @@ span.page-cat__link.active {
   .paging__link:last-child {
     margin-right: 0; }
   .paging__link.active, .paging__link:hover {
-    background: #fff; }
+    background: #fff;
+    color: #333; }
   .paging__link.paging__link--prev {
     -webkit-border-top-left-radius: 5px;
             border-top-left-radius: 5px;
     -webkit-border-bottom-left-radius: 5px;
             border-bottom-left-radius: 5px;
-    background: #f0f0f0 url(../img/svg/p-prev.svg) center no-repeat; }
+    background: #dadada url(../img/svg/p-prev.svg) center no-repeat; }
     .paging__link.paging__link--prev:hover {
       background: #fff url(../img/svg/p-prev.svg) center no-repeat; }
   .paging__link.paging__link--next {
@@ -5307,7 +5308,7 @@ span.page-cat__link.active {
             border-top-right-radius: 5px;
     -webkit-border-bottom-right-radius: 5px;
             border-bottom-right-radius: 5px;
-    background: #f0f0f0 url(../img/svg/p-next.svg) center no-repeat; }
+    background: #dadada url(../img/svg/p-next.svg) center no-repeat; }
     .paging__link.paging__link--next:hover {
       background: #fff url(../img/svg/p-next.svg) center no-repeat; }
 
