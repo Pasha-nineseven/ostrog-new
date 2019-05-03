@@ -146,7 +146,12 @@
 	font-weight: 500;
 	line-height: 1.2;
 	margin-bottom:2px;
-
+	display: block;
+	color: #333333;
+	text-decoration: none;
+	&:hover{
+		color: #003384;
+	}
 }
 
 .aside-article__date{

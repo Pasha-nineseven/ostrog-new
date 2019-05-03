@@ -3287,12 +3287,12 @@ textarea, input {
   font-size: inherit;
   line-height: inherit; }
 
-a[href]:not([class]) {
+a[href]:not([class]), a.embedly-card {
   color: #1581E1;
   -webkit-transition: color 0.2s linear;
   transition: color 0.2s linear;
   text-decoration: none; }
-  a[href]:not([class]):hover {
+  a[href]:not([class]):hover, a.embedly-card:hover {
     color: #0565BA; }
 
 body {
@@ -4053,7 +4053,12 @@ hr {
   font-size: 15px;
   font-weight: 500;
   line-height: 1.2;
-  margin-bottom: 2px; }
+  margin-bottom: 2px;
+  display: block;
+  color: #333333;
+  text-decoration: none; }
+  .aside-article__title:hover {
+    color: #003384; }
 
 .aside-article__date {
   font-size: 13px;
@@ -5866,6 +5871,10 @@ a.similar__link {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
   .instruction.is_stuck {
+    margin-top: 56px;
+    position: fixed !important;
+    top: 0 !important;
+    bottom: auto !important;
     padding: 14px 41px 14px 8px; }
 
 .instruction__item.active {
@@ -5978,9 +5987,6 @@ a.similar__link {
 
 .layout--cookie .nav-up {
   top: 0; }
-
-.layout--cookie .is_stuck {
-  top: 114px !important; }
 
 .layout--cookie .page-content {
   padding-top: 114px; }
