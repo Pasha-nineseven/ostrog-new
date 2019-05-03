@@ -59,7 +59,8 @@ p .btn {
 }
 
 .layout--cookie .nav-down + .wrapper .is_stuck {
-    margin-top: 0;
+    /* margin-top: 0; */
+    margin-top: 114px;
 }
 
 .layout--cookie .is_stuck {
@@ -98,4 +99,9 @@ ul.dots li:before, div.dots ul li:before {
 .bottom-logo {
     background: url(../img/svg/bottom_logo_new.svg) center no-repeat;
     height: 30px;
+}
+
+.layout--cookie .instruction{
+    max-height: -webkit-calc(100vh - 114px);
+    max-height: calc(100vh - 114px);
 }
