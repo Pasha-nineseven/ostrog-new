@@ -212,11 +212,16 @@ $(document).ready(function() {
       .slideToggle();
   });
 
-  if ($('.article-in__wrapper').length>0) {
-    $('.article-in__wrapper').each(function(i,elem) {
-        var articleWidth = $(this).find('img').innerWidth();
-        //console.log(articleWidth);
-        $(this).find('.image-caption').css('max-width', articleWidth);
+  if ($(".article-in__wrapper").length > 0) {
+    var centerImageCaption = function($elem) {
+      var articleWidth = $elem.find("img").innerWidth();
+      $elem.find(".image-caption").css("max-width", articleWidth);
+    };
+    $(".article-in__wrapper img").load(function() {
+      centerImageCaption($(this).closest(".article-in__wrapper"));
+    });
+    $(".article-in__wrapper").each(function(i, elem) {
+      centerImageCaption($(elem));
     });
   }
 });
