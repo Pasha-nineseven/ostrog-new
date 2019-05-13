@@ -8,6 +8,11 @@
     background: #fff794;
 }
 
+li .highlighted__inner{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
 .page-cat__back.active{
     color: #024a9a;
 }
