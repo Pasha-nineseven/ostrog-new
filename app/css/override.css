@@ -73,9 +73,9 @@ p .btn {
     max-width: inherit;
 }
 
-twitter-widget {
-    margin-left: auto;
-    margin-right: auto;
+.reddit-embed iframe, twitter-widget {
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 ul.dots li:before, div.dots ul li:before {
     content: "";
