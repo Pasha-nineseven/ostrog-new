@@ -3532,8 +3532,7 @@ hr {
   margin-top: 9px;
   display: none;
   padding: 6px 0;
-  -webkit-border-radius: 4px;
-          border-radius: 4px; }
+  border-radius: 4px; }
 
 .page-header-lang__list:after {
   content: "";
@@ -3759,7 +3758,6 @@ hr {
   background-color: rgba(255, 255, 255, 0.2);
   display: block;
   width: 100%;
-  -webkit-border-radius: 3px;
   border-radius: 3px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -3887,8 +3885,7 @@ hr {
   background: #2b3033;
   font-size: 12px;
   color: #fff;
-  -webkit-border-radius: 3px;
-          border-radius: 3px;
+  border-radius: 3px;
   padding: 5px 8px;
   white-space: nowrap;
   margin-bottom: 8px;
@@ -3993,8 +3990,7 @@ hr {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   color: #fff;
-  -webkit-border-radius: 5px;
-          border-radius: 5px;
+  border-radius: 5px;
   padding: 10px 20px 9px;
   margin-bottom: 25px;
   position: relative;
@@ -4198,8 +4194,7 @@ hr {
   margin-right: 10px;
   padding: 3px 5px 2px 5px;
   color: #fff;
-  -webkit-border-radius: 3px;
-          border-radius: 3px;
+  border-radius: 3px;
   text-decoration: none;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -4407,8 +4402,7 @@ hr {
   border: 1px solid #F6E54A;
   -webkit-box-shadow: 1px 1px 0px 0px rgba(246, 229, 74, 0.75);
           box-shadow: 1px 1px 0px 0px rgba(246, 229, 74, 0.75);
-  -webkit-border-radius: 3px;
-          border-radius: 3px;
+  border-radius: 3px;
   padding: 1px 4px; }
 
 .royalSlider {
@@ -4488,8 +4482,7 @@ img.rsImg {
   background: transparent;
   color: #000;
   width: 100%;
-  -webkit-border-radius: 0;
-          border-radius: 0;
+  border-radius: 0;
   font-size: 15px;
   padding: 0;
   clear: both;
@@ -4683,7 +4676,6 @@ img.rsImg {
   top: 50%;
   margin-top: -50px;
   z-index: 3;
-  -webkit-border-radius: 50%;
   border-radius: 50%;
   background: rgba(51, 51, 51, 0.4);
   -webkit-transition: all 0.3s ease;
@@ -4756,8 +4748,7 @@ img.rsImg {
 
 .block-socials-like__btn {
   display: inline-block;
-  -webkit-border-radius: 4px;
-          border-radius: 4px;
+  border-radius: 4px;
   text-decoration: none;
   font-weight: 500;
   padding: 4px 16px; }
@@ -4793,8 +4784,7 @@ img.rsImg {
 .ripple {
   width: 0;
   height: 0;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
   background: rgba(255, 255, 255, 0.4);
   -webkit-transform: scale(0);
       -ms-transform: scale(0);
@@ -4860,7 +4850,6 @@ img.rsImg {
   height: 42px;
   line-height: 42px;
   text-align: center;
-  -webkit-border-radius: 3px;
   border-radius: 3px;
   font-size: 20px;
   font-weight: 500;
@@ -4984,7 +4973,6 @@ img.rsImg {
   background: #01172f !important;
   background: -webkit-gradient(linear, left top, right top, from(#01172f), to(#001f30)) !important;
   background: linear-gradient(90deg, #01172f 0%, #001f30 100%) !important;
-  -webkit-border-radius: 5px;
   border-radius: 5px;
   height: 50px;
   line-height: 50px;
@@ -5009,7 +4997,6 @@ img.rsImg {
   background: #4da176;
   background: -webkit-gradient(linear, left top, right top, from(#4da176), to(#4cbe7b));
   background: linear-gradient(90deg, #4da176 0%, #4cbe7b 100%);
-  -webkit-border-radius: 5px;
   border-radius: 5px;
   height: 50px;
   line-height: 50px;
@@ -5207,8 +5194,7 @@ span.page-cat__link.active {
   background: #fff;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  -webkit-border-radius: 5px;
-          border-radius: 5px;
+  border-radius: 5px;
   border: 1px solid #007FE4;
   text-decoration: none;
   width: 240px;
@@ -5301,18 +5287,14 @@ span.page-cat__link.active {
     background: #007fe4;
     color: #fff; }
   .paging__link.paging__link--prev {
-    -webkit-border-top-left-radius: 5px;
-            border-top-left-radius: 5px;
-    -webkit-border-bottom-left-radius: 5px;
-            border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     background: #fff url(../img/svg/p-prev.svg) center no-repeat; }
     .paging__link.paging__link--prev:hover {
       background: #007fe4 url(../img/svg/p-prev-h.svg) center no-repeat; }
   .paging__link.paging__link--next {
-    -webkit-border-top-right-radius: 5px;
-            border-top-right-radius: 5px;
-    -webkit-border-bottom-right-radius: 5px;
-            border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     background: #fff url(../img/svg/p-next.svg) center no-repeat; }
     .paging__link.paging__link--next:hover {
       background: #007fe4 url(../img/svg/p-next-h.svg) center no-repeat; }
@@ -5463,8 +5445,7 @@ span.page-cat__link.active {
 .more-btn {
   text-decoration: none;
   color: #fff;
-  -webkit-border-radius: 5px;
-          border-radius: 5px;
+  border-radius: 5px;
   background: #007FE4;
   padding: 10px 61px;
   display: inline-block;
@@ -5526,8 +5507,7 @@ span.page-cat__link.active {
   margin-top: -2px;
   width: 16px;
   height: 16px;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
   margin-right: 6px;
   overflow: hidden; }
   .country-icon img {
@@ -5622,8 +5602,7 @@ span.page-cat__link.active {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
   color: #fff;
-  -webkit-border-radius: 5px;
-          border-radius: 5px;
+  border-radius: 5px;
   padding: 5px 25px;
   vertical-align: middle;
   text-decoration: none;
@@ -5714,8 +5693,7 @@ a.similar__link {
 
 .gamepage-block-unit-tag {
   background-color: #003384;
-  -webkit-border-radius: 2px;
-          border-radius: 2px;
+  border-radius: 2px;
   text-align: center;
   display: inline-block;
   vertical-align: middle;
@@ -5899,11 +5877,9 @@ a.similar__link {
 
 .instruction::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  -webkit-border-radius: 5px;
   border-radius: 5px; }
 
 .instruction::-webkit-scrollbar-thumb {
-  -webkit-border-radius: 5px;
   border-radius: 5px;
   background: #024a9a; }
 
@@ -6112,8 +6088,7 @@ p + h2 {
   vertical-align: middle;
   margin-right: 15px;
   border: 2px solid #00669e;
-  -webkit-border-radius: 50%;
-          border-radius: 50%; }
+  border-radius: 50%; }
 
 .page-footer__vk {
   display: inline-block;
@@ -6125,8 +6100,7 @@ p + h2 {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
   border: 2px solid #00669e;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
   margin-right: 15px; }
   .page-footer__vk:hover {
     background: #00669e url(../img/svg/vk.svg) center no-repeat;
