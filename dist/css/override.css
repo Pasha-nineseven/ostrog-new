@@ -110,3 +110,15 @@ ul.dots li:before, div.dots ul li:before {
     pointer-events: none;
     cursor: not-allowed;
 }
+
+
+.instruction {
+    max-height: inherit;
+    max-height: inherit;
+    overflow-y: hidden;
+}
+.instruction.is_stuck {
+    max-height: -webkit-calc(100vh - 56px);
+    max-height: calc(100vh - 56px);
+    overflow-y: auto;
+}
