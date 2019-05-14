@@ -131,3 +131,7 @@ ul.dots li:before, div.dots ul li:before {
     max-height: calc(100vh - 56px);
     overflow-y: auto;
 }
+
+.article-in__wrapper .image-caption {
+    margin-bottom: 0;
+}
