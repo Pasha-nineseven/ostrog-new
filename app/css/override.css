@@ -135,3 +135,7 @@ ul.dots li:before, div.dots ul li:before {
 .article-in__wrapper .image-caption {
     margin-bottom: 0;
 }
+
+.top-nav-anchors__expand i {
+    top: 14px;
+}
