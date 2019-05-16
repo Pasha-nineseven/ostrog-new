@@ -5911,7 +5911,6 @@ a.similar__link {
 .expand-info {
   cursor: pointer;
   line-height: 1.1;
-  padding: 14px 41px 14px 30px;
   position: relative; }
 
 .top-nav-anchors__expand i {
@@ -5919,11 +5918,16 @@ a.similar__link {
   color: #8C8E8F;
   font-style: normal;
   position: absolute;
-  left: 8px; }
+  left: 8px;
+  top: 13px; }
 
 .top-nav-anchors__expand span {
   display: block;
-  overflow: hidden; }
+  overflow: hidden;
+  padding: 14px 41px 14px 30px; }
+
+.top-nav-anchors__expand span:empty {
+  padding: 0; }
 
 .top-nav-anchors-link__toggle {
   display: inline-block;
