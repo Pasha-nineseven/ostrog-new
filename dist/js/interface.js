@@ -311,7 +311,7 @@ function hasScrolled() {
     lastScrollTop = st;
 }
 
-$(document).on("scroll", debounce(onScroll));
+$(document).on("scroll", onScroll);
 
 function onScroll(event) {
     if ($(".instruction__list").length > 0) {
