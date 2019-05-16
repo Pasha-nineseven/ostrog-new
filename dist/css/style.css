@@ -5858,7 +5858,7 @@ a.similar__link {
   font-size: 15px;
   background: #fff;
   position: relative;
-  padding: 8px 41px 8px 8px;
+  padding: 0;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   max-height: -webkit-calc(100vh - 56px);
@@ -5868,8 +5868,7 @@ a.similar__link {
     margin-top: 56px;
     position: fixed !important;
     top: 0 !important;
-    bottom: auto !important;
-    padding: 14px 41px 14px 8px; }
+    bottom: auto !important; }
 
 .instruction::-webkit-scrollbar {
   width: 8px;
@@ -5912,7 +5911,7 @@ a.similar__link {
 .expand-info {
   cursor: pointer;
   line-height: 1.1;
-  padding-left: 22px;
+  padding: 14px 41px 14px 30px;
   position: relative; }
 
 .top-nav-anchors__expand i {
@@ -5920,7 +5919,7 @@ a.similar__link {
   color: #8C8E8F;
   font-style: normal;
   position: absolute;
-  left: 0; }
+  left: 8px; }
 
 .top-nav-anchors__expand span {
   display: block;
@@ -5929,10 +5928,10 @@ a.similar__link {
 .top-nav-anchors-link__toggle {
   display: inline-block;
   position: absolute;
-  right: -30px;
+  right: 11px;
   width: 22px;
   height: 20px;
-  top: -1px;
+  top: 13px;
   background: url(../img/svg/downwards-pointer.svg) no-repeat;
   background-size: contain;
   -webkit-transition: all 0.3s ease;
@@ -5944,7 +5943,8 @@ a.similar__link {
             transform: rotate(180deg); }
 
 .instruction ol {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  padding: 0px 41px 0px 8px; }
 
 .instruction ol li {
   margin-bottom: 10px;
@@ -5977,7 +5977,8 @@ a.similar__link {
   position: relative; }
 
 .is_stuck .instruction__list.isVisible {
-  display: block; }
+  display: block;
+  padding: 13px 41px 13px 8px; }
 
 .js-page-aside__sticky {
   -webkit-transition: all 0.3s ease-in-out;
