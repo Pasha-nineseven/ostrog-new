@@ -3500,11 +3500,10 @@ hr {
           justify-content: space-between; }
 
 .top-logo {
-  width: 131px;
+  width: 160px;
   height: 42px;
   background: url(../img/svg/top_logo.svg) center no-repeat;
-  margin-right: 37px;
-  margin-top: 6px; }
+  margin: 6px 37px 0 -40px; }
 
 .page-header__wrap:after {
   content: "";
