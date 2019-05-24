@@ -3503,7 +3503,7 @@ hr {
   width: 160px;
   height: 42px;
   background: url(../img/svg/top_logo.svg) center no-repeat;
-  margin: 6px 37px 0 -40px; }
+  margin: 6px 37px 0 0; }
 
 .page-header__wrap:after {
   content: "";
