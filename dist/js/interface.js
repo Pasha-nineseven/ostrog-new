@@ -136,7 +136,6 @@ $(document).ready(function () {
 
     // BTN-RIPPLE
     $(".js-ripple").click(function (e) {
-        e.preventDefault();
         // Remove any old one
         $(".ripple").remove();
 
