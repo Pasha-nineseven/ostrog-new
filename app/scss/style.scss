@@ -259,7 +259,7 @@
 		max-width: 100%;
 		height: auto;
 		display: block;
-		margin: 0 auto; 
+		margin: 0 auto;
 	}
 
 	.image-caption{
@@ -1507,17 +1507,17 @@ span.page-cat__link{
 	&.paging__link--prev{
 		border-top-left-radius: 5px;
 		border-bottom-left-radius: 5px;
-		background: #fff url(../img/svg/p-prev.svg) center no-repeat;
+		background: #fff url(../img/svg/p-first.svg) center no-repeat;
 		&:hover{
-			background: #007fe4 url(../img/svg/p-prev-h.svg) center no-repeat;
+			background: #007fe4 url(../img/svg/p-first-h.svg) center no-repeat;
 		}
 	}
 	&.paging__link--next{
 		border-top-right-radius: 5px;
 		border-bottom-right-radius: 5px;
-		background: #fff url(../img/svg/p-next.svg) center no-repeat;
+		background: #fff url(../img/svg/p-last.svg) center no-repeat;
 		&:hover{
-			background: #007fe4 url(../img/svg/p-next-h.svg) center no-repeat;
+			background: #007fe4 url(../img/svg/p-last-h.svg) center no-repeat;
 		}
 	}
 }
@@ -2231,7 +2231,7 @@ a.similar__link{
 .expand-info {
     cursor: pointer;
     line-height: 1.1;
-    
+
     position: relative;
 }
 
