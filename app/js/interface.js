@@ -215,6 +215,7 @@ $(document).ready(function () {
         var $self = $(this);
         if ($self.hasClass("btn")) {
             $self.attr("href") && $.post($self.attr("href"));
+            localStorage.setItem('cookie_accepted', true);
         }
         $(".layout").removeClass("layout--cookie");
         $self.parents(".cookies").remove();
