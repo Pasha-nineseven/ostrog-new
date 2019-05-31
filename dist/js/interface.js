@@ -20,6 +20,9 @@ function debounce(func, wait) {
 $(document).ready(function () {
     var LANG = $("html").attr("lang") ? $("html").attr("lang") : "ru";
 
+    typeof reframe === "function" &&
+        reframe(document.querySelectorAll(".content iframe"));
+
     setTimeout(function () {
         // костыль
         adjustTocMarginTop();
