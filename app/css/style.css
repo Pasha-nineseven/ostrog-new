@@ -6037,7 +6037,7 @@ a.similar__link {
 .dnone {
   display: none !important; }
 
-p img {
+p img, h2 img, h3 img {
   max-width: 100% !important; }
 
 .highlighted {
