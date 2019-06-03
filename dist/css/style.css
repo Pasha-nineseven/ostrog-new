@@ -6040,6 +6040,10 @@ a.similar__link {
 p img, h2 img, h3 img {
   max-width: 100% !important; }
 
+.emojione {
+  display: inline-block;
+  vertical-align: bottom; }
+
 .highlighted {
   border: 1px solid #fbf3b1;
   background: #fff9e0;

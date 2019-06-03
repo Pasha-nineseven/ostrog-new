@@ -24,7 +24,6 @@ $(document).ready(function () {
         reframe(document.querySelectorAll(".content iframe"));
 
     setTimeout(function () {
-        // костыль
         adjustTocMarginTop();
     }, 300);
 
