@@ -22,6 +22,7 @@ $(document).ready(function () {
 
     typeof reframe === "function" &&
         reframe(document.querySelectorAll(".content iframe"));
+    $('p:empty').remove();
 
     setTimeout(function () {
         adjustTocMarginTop();
