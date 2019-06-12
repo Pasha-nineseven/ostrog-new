@@ -4158,7 +4158,8 @@ hr {
     margin-bottom: 27px;
     text-align: left; }
   .article-in__img .video__item {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    height: auto; }
 
 .article-in__wrapper {
   display: inline-block;
@@ -4377,7 +4378,7 @@ hr {
 .layout--material .article-in__img .image-caption {
   margin-left: 0;
   margin-right: 0;
-  margin-bottom: 26px; }
+  margin-bottom: 0; }
 
 .layout--material .content {
   max-width: -webkit-calc(100% - 260px);
