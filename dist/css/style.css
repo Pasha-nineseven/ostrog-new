@@ -4164,6 +4164,9 @@ hr {
   display: inline-block;
   margin: 0 auto; }
 
+.article-in__img .article-in__wrapper {
+  display: block; }
+
 .article {
   font-size: 16px; }
   .article h2 {
