@@ -4499,6 +4499,9 @@ img.rsImg {
   color: #333;
   line-height: 1.2; }
 
+.rsCaption:empty {
+  display: none; }
+
 .rsDefaultInv,
 .rsDefaultInv .rsOverflow,
 .rsDefaultInv .rsSlide,

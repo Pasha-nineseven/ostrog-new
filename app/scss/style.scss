@@ -688,6 +688,10 @@ img.rsImg {
     line-height: 1.2;
 }
 
+.rsCaption:empty {
+    display: none;
+}
+
 .rsDefaultInv,
 .rsDefaultInv .rsOverflow,
 .rsDefaultInv .rsSlide,
