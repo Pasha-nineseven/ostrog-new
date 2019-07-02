@@ -20,8 +20,15 @@ function debounce(func, wait) {
 $(document).ready(function () {
     var LANG = $("html").attr("lang") ? $("html").attr("lang") : "ru";
 
-    typeof reframe === "function" &&
-        reframe(document.querySelectorAll(".content iframe"));
+    if (typeof reframe === "function") {
+        var framesToReframe = [].slice.call(document.querySelectorAll(".content iframe"));
+        framesToReframe = framesToReframe.filter(function (frame) {
+            var src = frame.getAttribute('src');
+            return !src.match(/https:\/\/www\.facebook\.com\/plugins\/post\.php/);
+        });
+        reframe(framesToReframe);
+    }
+
     $('p:empty').remove();
 
     setTimeout(function () {

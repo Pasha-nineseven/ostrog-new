@@ -65,6 +65,7 @@ p .btn {
 
 .reddit-embed {
     margin-bottom: 26px;
+    text-align: center;
 }
 
 .layout--cookie .nav-down + .wrapper .is_stuck {
