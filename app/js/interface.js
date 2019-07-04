@@ -29,6 +29,43 @@ $(document).ready(function () {
         reframe(framesToReframe);
     }
 
+    (function () {
+        function hasClass(className, el) {
+            return el.classList.contains(className);
+        }
+        var embeddable = document.querySelectorAll(".embeddable");
+        for (var i = 0; i < embeddable.length; i++) {
+            if (!(hasClass('embeddable-youtube', embeddable[i]) || hasClass('embeddable-gfycat', embeddable[i]))) {
+                continue;
+            }
+            var srcThumb = !hasClass('embeddable-gfycat', embeddable[i])
+                ? "https://img.youtube.com/vi/" + embeddable[i].dataset.embed + "/sddefault.jpg"
+                : 'https://thumbs.gfycat.com/' + embeddable[i].dataset.embed + '-mobile.jpg'
+                ;
+
+            var image = new Image();
+            image.src = srcThumb;
+            image.addEventListener("load", function () {
+                embeddable[i].appendChild(image);
+            }(i));
+            embeddable[i].addEventListener("click", function () {
+                var iframe = document.createElement("iframe");
+                var srcVideo = !hasClass('embeddable-gfycat', this)
+                    ? ("https://www.youtube.com/embed/" + this.dataset.embed + "?rel=0&showinfo=0&autoplay=1") //"?rel=0&showinfo=0&autoplay=1"
+                    : ('https://gfycat.com/ifr/' + this.dataset.embed)
+                    ;
+                iframe.setAttribute("frameborder", "0");
+                iframe.setAttribute("allowfullscreen", "");
+                iframe.setAttribute("src", srcVideo);
+                this.innerHTML = "";
+                this.appendChild(iframe);
+                if (!hasClass('embeddable-gfycat', this)) {
+                    document.querySelector(".ytp-large-play-button").click();
+                }
+            });
+        }
+    })();
+
     $('p:empty').remove();
 
     setTimeout(function () {

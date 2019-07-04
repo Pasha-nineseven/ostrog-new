@@ -1,0 +1,54 @@
+.embeddable {
+    background-color: #000;
+    // margin-bottom: 30px;
+    position: relative;
+    padding-top: 56.25%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.embeddable-gfycat img {
+    top: 0 !important;
+}
+.embeddable img {
+    width: 100%;
+    top: -16.82%;
+    left: 0;
+    opacity: 0.7;
+}
+.embeddable .play-button {
+    width: 90px;
+    height: 60px;
+    background-color: #333;
+    box-shadow: 0 0 30px rgba( 0,0,0,0.6 );
+    z-index: 1;
+    opacity: 0.8;
+    border-radius: 6px;
+}
+.embeddable .play-button:before {
+    content: "";
+    border-style: solid;
+    border-width: 15px 0 15px 26.0px;
+    border-color: transparent transparent transparent #fff;
+}
+.embeddable img,
+.embeddable .play-button {
+    cursor: pointer;
+}
+.embeddable img,
+.embeddable iframe,
+.embeddable .play-button,
+.embeddable .play-button:before {
+    position: absolute;
+}
+.embeddable .play-button,
+.embeddable .play-button:before {
+    top: 50%;
+    left: 50%;
+    transform: translate3d( -50%, -50%, 0 );
+}
+.embeddable iframe {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
