@@ -6167,6 +6167,9 @@ p + h2 {
   opacity: 0.8;
   border-radius: 6px; }
 
+.embeddable .play-button:hover {
+  background-color: #ff0000; }
+
 .embeddable .play-button:before {
   content: "";
   border-style: solid;
