@@ -39,7 +39,7 @@ $(document).ready(function () {
                 continue;
             }
             var srcThumb = !hasClass('embeddable-gfycat', embeddable[i])
-                ? "https://img.youtube.com/vi/" + embeddable[i].dataset.embed + "/sddefault.jpg"
+                ? "https://img.youtube.com/vi/" + embeddable[i].dataset.embed.split('?')[0] + "/sddefault.jpg"
                 : 'https://thumbs.gfycat.com/' + embeddable[i].dataset.embed + '-mobile.jpg'
                 ;
 
@@ -59,9 +59,6 @@ $(document).ready(function () {
                 iframe.setAttribute("src", srcVideo);
                 this.innerHTML = "";
                 this.appendChild(iframe);
-                if (!hasClass('embeddable-gfycat', this)) {
-                    document.querySelector(".ytp-large-play-button").click();
-                }
             });
         }
     })();
