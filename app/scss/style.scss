@@ -822,6 +822,16 @@ img.rsImg {
 			margin-bottom: 0;
 		}
 	}
+	ul{
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+	ol{
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
 }
 
 .content .highlighted-block, .content .highlighted-text {
