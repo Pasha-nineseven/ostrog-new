@@ -4460,11 +4460,13 @@ img.rsImg {
   overflow-y: hidden; }
 
 .rsDefaultInv .rsThumb {
-  width: 150px;
-  height: 90px;
-  line-height: 90px;
+  width: auto;
+  height: auto;
+  line-height: inherit;
   overflow: hidden;
-  text-align: center; }
+  text-align: center;
+  max-width: 96px;
+  max-height: 100px; }
 
 .rsDefaultInv .rsThumb img {
   width: auto;
@@ -4477,7 +4479,7 @@ img.rsImg {
   display: inline-block; }
 
 .rsDefaultInv .rsThumbsHor {
-  height: 100px;
+  height: auto;
   padding: 5px 0 0 0;
   width: 100%; }
 
