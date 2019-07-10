@@ -648,6 +648,7 @@ img.rsImg {
   text-align: center;
   max-width: 96px;
    max-height: 100px;
+   min-width: 90px;
 }
 
 
@@ -2458,6 +2459,11 @@ p, h2, h3{
 
 p+h2{
 	margin-bottom: 12px;
+}
+
+.rsDefaultInv.rsWithThumbsHor .rsThumbsContainer{
+	display: flex;
+	min-width: 100%;
 }
 
 @import "components/footer";

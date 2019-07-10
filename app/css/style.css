@@ -4466,7 +4466,8 @@ img.rsImg {
   overflow: hidden;
   text-align: center;
   max-width: 96px;
-  max-height: 100px; }
+  max-height: 100px;
+  min-width: 90px; }
 
 .rsDefaultInv .rsThumb img {
   width: auto;
@@ -6082,6 +6083,13 @@ p img, h2 img, h3 img {
 
 p + h2 {
   margin-bottom: 12px; }
+
+.rsDefaultInv.rsWithThumbsHor .rsThumbsContainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 100%; }
 
 .page-footer {
   background: #2b3033;
