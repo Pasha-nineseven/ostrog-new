@@ -6015,6 +6015,9 @@ a.similar__link {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
 
+.js-page-aside__sticky.is_stuck {
+  margin-top: 56px; }
+
 .nav-down + .wrapper .is_stuck {
   margin-top: 56px; }
 
