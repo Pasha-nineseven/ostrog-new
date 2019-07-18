@@ -5788,6 +5788,8 @@ a.similar__link {
   .img-item--centered img {
     margin-right: 20px;
     margin-bottom: 0; }
+  .img-item--centered p {
+    margin-bottom: 0; }
 
 .images-multiple {
   margin-bottom: 32px; }
