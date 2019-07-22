@@ -5788,7 +5788,7 @@ a.similar__link {
   .img-item--centered img {
     margin-right: 20px;
     margin-bottom: 0; }
-  .img-item--centered p {
+  .img-item--centered p:last-child {
     margin-bottom: 0; }
 
 .images-multiple {
