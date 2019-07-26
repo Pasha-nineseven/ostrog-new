@@ -40,9 +40,10 @@ textarea,input {
 a[href]:not([class]), a.embedly-card{
 	color: #1581E1;
 	transition: color 0.2s linear;
-	text-decoration: none;
+	text-decoration: underline;
 	&:hover{
 		color: #0565BA;
+		text-decoration: none;
 	}
 	// &:visited{
 	// 	color: #0793D5;

@@ -3291,9 +3291,10 @@ a[href]:not([class]), a.embedly-card {
   color: #1581E1;
   -webkit-transition: color 0.2s linear;
   transition: color 0.2s linear;
-  text-decoration: none; }
+  text-decoration: underline; }
   a[href]:not([class]):hover, a.embedly-card:hover {
-    color: #0565BA; }
+    color: #0565BA;
+    text-decoration: none; }
 
 body {
   margin: 0;
