@@ -6101,6 +6101,10 @@ p + h2 {
   margin-top: 0 !important;
   top: 56px !important; }
 
+.reddit-embed {
+  margin-left: -16px;
+  margin-right: -16px; }
+
 .page-footer {
   background: #2b3033;
   background: -webkit-gradient(linear, left top, right top, from(#2b3033), to(#2a3433));
