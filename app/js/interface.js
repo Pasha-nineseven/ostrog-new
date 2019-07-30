@@ -33,7 +33,41 @@ $(document).ready(function () {
         function hasClass(className, el) {
             return el.classList.contains(className);
         }
+        function removeClass(className, el) {
+            el.classList.remove(className);
+        }
         var embeddable = document.querySelectorAll(".embeddable");
+        var youtube = [].slice.call(embeddable)
+            .filter(function (you) {
+                return hasClass('embeddable-youtube', you)
+            });
+        function registerYtScript() {
+            var tag = document.createElement('script');
+            tag.src = "https://www.youtube.com/iframe_api";
+            var firstScriptTag = document.getElementsByTagName('script')[0];
+            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        }
+        function createPlayer(you) {
+            removeClass('embeddable', you);
+            var parts = you.dataset.embed.split('?start=');
+            var videoId = parts[0],
+                start = parts[1];
+            var playerConfig = {
+                height: '315',
+                width: '560',
+                videoId: videoId,
+                events: {
+                    'onReady': function (event) {
+                        reframe(event.target.a);
+                    },
+                }
+            };
+            if (start) {
+                playerConfig['playerVars'] = {};
+                playerConfig['playerVars']['start'] = start;
+            }
+            new YT.Player(you, playerConfig);
+        }
         for (var i = 0; i < embeddable.length; i++) {
             if (!(hasClass('embeddable-youtube', embeddable[i]) || hasClass('embeddable-gfycat', embeddable[i]))) {
                 continue;
@@ -49,10 +83,11 @@ $(document).ready(function () {
                 embeddable[i].appendChild(image);
             }(i));
             embeddable[i].addEventListener("click", function () {
+                if (!hasClass('embeddable-gfycat', this)) {
+                    return false;
+                }
                 var iframe = document.createElement("iframe");
-                var srcVideo = !hasClass('embeddable-gfycat', this)
-                    ? ("https://www.youtube.com/embed/" + this.dataset.embed + "?rel=0&showinfo=0&autoplay=1") //"?rel=0&showinfo=0&autoplay=1"
-                    : ('https://gfycat.com/ifr/' + this.dataset.embed)
+                var srcVideo = ('https://gfycat.com/ifr/' + this.dataset.embed);
                     ;
                 iframe.setAttribute("frameborder", "0");
                 iframe.setAttribute("allowfullscreen", "");
@@ -60,6 +95,12 @@ $(document).ready(function () {
                 this.innerHTML = "";
                 this.appendChild(iframe);
             });
+        }
+        if (youtube.length) {
+            registerYtScript();
+            window.onYouTubeIframeAPIReady = function () {
+                youtube.forEach(createPlayer);
+            };
         }
     })();
 
