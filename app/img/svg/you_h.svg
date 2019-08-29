@@ -1,0 +1,11 @@
+<svg width="33" height="30" viewBox="0 0 33 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="youtube_hov">
+<rect id="Mask" opacity="0.9" width="33" height="30" rx="2" fill="#FF0000"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="33" height="30">
+<rect id="Mask_2" width="33" height="30" rx="2" fill="white"/>
+</mask>
+<g mask="url(#mask0)">
+<path id="Combined Shape" fill-rule="evenodd" clip-rule="evenodd" d="M24.7046 8.44782C25.6082 8.69423 26.3196 9.42028 26.5611 10.3423C27 12.0133 27 15.5 27 15.5C27 15.5 27 18.9865 26.5611 20.6578C26.3196 21.5797 25.6082 22.3058 24.7046 22.5523C23.0669 23 16.5 23 16.5 23C16.5 23 9.93309 23 8.29544 22.5523C7.39197 22.3058 6.68035 21.5797 6.43885 20.6578C6 18.9865 6 15.5 6 15.5C6 15.5 6 12.0133 6.43885 10.3423C6.68035 9.42028 7.39197 8.69423 8.29544 8.44782C9.93309 8 16.5 8 16.5 8C16.5 8 23.0669 8 24.7046 8.44782ZM19.8409 15.5001L14.3523 18.6656V12.3344L19.8409 15.5001Z" fill="white"/>
+</g>
+</g>
+</svg>

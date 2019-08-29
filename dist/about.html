@@ -929,20 +929,48 @@
 					</div>
 				</div>
 			</div>
-			<footer class="page-footer">
+			<footer class="page-footer page-footer--ru">
 				<div class="container-fluid">
-					<div class="bottom-logo-wrap">
-						<span class="bottom-logo"></span>
-					</div>
 					<div class="page-footer__wrap">
-						<div class="copyright">&copy;2018</div>
-						<div class="page-footer__menu">
-							<a href="#" class="page-footer__link">Пользовательское соглашение</a>
-							<a href="#" class="page-footer__link">Политика конфиденциальности</a>
+						<div class="page-footer__in">
+							<div class="page-footer__socials">
+								<a href="#" class="soclals__item soclals__item--vk"></a>
+								<a href="#" class="soclals__item soclals__item--tg"></a>
+								<a href="#" class="soclals__item soclals__item--you"></a>
+							</div>
+							<div class="page-footer__menu">
+								<a href="#" class="page-footer__link">Контакты</a>
+							</div>
+							<div class="solashing">
+								<a href="#" class="solashing__item">Пользовательское соглашение</a>
+								<a href="#" class="solashing__item">Политика конфиденциальности</a>
+							</div>
+							<div class="page-footer-external">
+								<a href="#" class="page-footer-external__link" target="_blank">
+									<i class="page-footer-external__icon">
+										<img src="img/svg/loftdog.svg" alt="">
+									</i>
+									Loftdog
+								</a>
+								<a href="#" class="page-footer-external__link" target="_blank">
+									<i class="page-footer-external__icon">
+										<img src="img/svg/igro.svg" alt="">
+									</i>
+									Игромаркет
+								</a>
+							</div>
 						</div>
-						<div class="page-footer__socials">
-							<a href="https://vk.com/ostrog_com" target="_blank" class="page-footer__vk"></a>
-							<span class="page-footer__18">18+</span>
+						<div class="page-footer__copyright">
+							<div class="page-footer__alert">18+</div>
+							<div>
+								&copy;<span class="page-footer__toggle" id="current_year_ru">2009</span> C-c-combo Breaker
+								<script>
+									var dteNow = new Date();
+									var intYear = dteNow.getFullYear(),
+										innerYear = document.getElementById('current_year_ru');
+									innerYear.innerHTML = intYear;
+								</script>
+							</div>
 						</div>
 					</div>
 				</div>
