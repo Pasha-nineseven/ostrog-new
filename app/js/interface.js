@@ -24,7 +24,7 @@ $(document).ready(function () {
         var framesToReframe = [].slice.call(document.querySelectorAll(".content iframe"));
         framesToReframe = framesToReframe.filter(function (frame) {
             var src = frame.getAttribute('src');
-            return !src.match(/https:\/\/www\.facebook\.com\/plugins\/post\.php/);
+            return src && !src.match(/https:\/\/www\.facebook\.com\/plugins\/post\.php/);
         });
         reframe(framesToReframe);
     }
