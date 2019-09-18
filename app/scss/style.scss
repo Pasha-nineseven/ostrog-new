@@ -833,6 +833,12 @@ img.rsImg {
 			margin-bottom: 0;
 		}
 	}
+	.article-in__img{
+		padding-top: 20px;
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
 }
 
 .content .highlighted-block, .content .highlighted-text {

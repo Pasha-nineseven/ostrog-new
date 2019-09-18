@@ -4626,6 +4626,10 @@ img.rsImg {
     margin-bottom: 0; }
   .highlighted-block ol:last-child {
     margin-bottom: 0; }
+  .highlighted-block .article-in__img {
+    padding-top: 20px; }
+    .highlighted-block .article-in__img:last-child {
+      margin-bottom: 0; }
 
 .content .highlighted-block, .content .highlighted-text {
   margin-left: -16px;
